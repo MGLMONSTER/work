@@ -1,0 +1,429 @@
+ //覆盖一些element-ui样式
+
+
+
+//蒙文显示
+.el-tabs .el-tabs__nav .el-tabs__item, .el-dialog,
+.el-popper .el-select-dropdown__empty,
+.el-popper .el-select-dropdown__list .el-select-dropdown__item,
+.el-popper .el-select-dropdown__list .el-select-dropdown__item span,
+.progress .el-step__main, .el-message-box,.el-message-box p,.el-message{
+  font-size:1em;
+  white-space: inherit;
+  font-family: 'OrhonChaganTig';
+  writing-mode: vertical-lr;
+  //writing-mode: tb-lr;
+  //-webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: tb-lr;
+  //-o-writing-mode: vertical-lr;
+  //-moz-writing-mode: vertical-lr;
+  //text-orientation: sideways;
+  //-webkit-text-orientation: sideways;
+  //-ms-text-orientation: sideways;
+  //-o-text-orientation: sideways;
+  //-moz-text-orientation: sideways;
+  //unicode-bidi:embed;word-spacing:normal;
+  //word-wrap:normal;word-break:keep-all;
+}
+ .el-message{
+   min-width: 40px!important;
+ }
+ .el-message-box .el-message-box__close{
+   display: none;
+ }
+ .el-message-box p{
+   height: 30px;
+   word-spacing: normal;
+   word-wrap: normal;
+   word-break: keep-all;
+ }
+ .el-textarea__inner{
+
+   -webkit-text-orientation: sideways-right;
+   font-family: 'OrhonChaganTig';
+ }
+
+ .el-breadcrumb__inner, .el-breadcrumb__inner a{
+  font-weight: 400!important;
+}
+ .el-message__icon{
+   writing-mode: horizontal-tb;
+   margin-left: 7px;
+   margin-bottom: 10px;
+ }
+ .el-upload {
+   input[type="file"] {
+     display: none !important;
+   }
+ }
+
+ .el-upload__input {
+   display: none;
+ }
+ .cell .el-button span{
+   white-space: unset;
+   word-break: unset;
+ }
+ .cell span{
+   white-space: pre-wrap;
+   word-break: keep-all;
+ }
+ .cell {
+  .el-tag {
+    margin-right: 0px;
+  }
+ }
+ .small-padding {
+   .cell {
+     padding-left: 5px;
+     padding-right: 5px;
+   }
+ }
+ .fixed-width{
+  .el-button--mini{
+    padding: 7px 10px;
+    width: 60px;
+  }
+ }
+
+ .status-col {
+   .cell {
+     padding: 0 10px;
+     text-align: center;
+     .el-tag {
+       margin-right: 0px;
+     }
+   }
+ }
+ .el-menu--collapse .el-submenu .el-menu {
+    position: absolute;
+    top: -105px;
+    left: 0;
+}
+.el-tabs--top.el-tabs--border-card .el-tabs__item:last-child{
+  padding-right:0;
+  padding-left:0;
+}
+ .el-tabs{
+    writing-mode: vertical-lr;
+    height:100%;
+    .el-tabs__nav{
+      .el-tabs__item{
+        padding:10px  0;
+        // font-size:15px;
+        display: inline-block;
+        height:auto;
+      }
+    }
+  }
+  .el-submenu{
+    transition: 0;
+  }
+ .el-form-item__error{
+   font-size:14px;
+   margin-left: 10px!important;
+   position: unset!important;
+ }
+  .el-dialog{
+    .el-dialog__header{
+      background:#e03636!important;
+      .el-dialog__title{
+        color:#fff;
+      }
+    }
+    .el-button{
+      background:#e33434;
+      border:none;
+      &:hover{
+        background:#ff4d4d;
+      }
+      &:active{
+        background:#e33434;
+      }
+    }
+  }
+
+  .el-date-table{
+
+      font-size:1em;
+      span{
+        font-size:1.2em;
+      }
+    }
+
+    //设置时间组件
+  .settimess{
+    margin-top: 5px;
+    width: 40px!important;
+    .el-input__inner{
+      padding-left:0;
+      padding-right:0;
+    }
+    .el-input__suffix,.el-input__prefix{
+      display: unset!important;
+      height: auto;
+      .el-input__icon{
+        position: relative;
+        top:5px;
+         left: -3px;
+      }
+    }
+    .el-input__suffix{
+      height: auto;
+      /* position: relative; */
+      top: 173px;
+      left: 5px;
+      width: 30px;
+    }
+  }
+ .settimessz{
+   margin-top: 5px;
+   width: 40px!important;
+   .el-input__inner{
+     padding-left:0;
+     padding-right:0;
+   }
+   .el-input__suffix,.el-input__prefix{
+     display: unset!important;
+     height: auto;
+     .el-icon-date{
+       position: relative;
+       top:5px;
+       left: -13px;
+     }
+    .el-icon-circle-close{
+      position: relative;
+      left: -22px;
+    }
+   }
+   .el-input__suffix{
+     height: auto;
+     /* position: relative; */
+     top: 173px;
+     left: 5px;
+     width: 30px;
+   }
+ }
+  .settime{
+    width: 40px!important;
+    .el-input__inner{
+      padding-left:0;
+      padding-right:0;
+    }
+    .el-input__suffix,.el-input__prefix{
+      display: unset!important;
+      height: auto;
+      .el-icon-time{
+        display: block;
+        line-height:30px;
+        font-size:15px;
+        padding-top:5px;
+        padding-bottom:5px;
+      }
+    }
+    .el-input__suffix{
+    height: auto;
+    /* position: relative; */
+    top: 173px;
+    left: -15px;
+    width: 30px;
+    }
+  }
+ //.el-date-picker{
+ //  position: absolute !important;
+ //  top:142px!important;
+ //  left: 352px!important;
+ //}
+ .has-time{
+   .el-picker-panel__body .el-date-picker__time-header{
+     .el-scrollbar{
+       writing-mode:horizontal-tb;
+     }
+     .el-input__inner{
+       padding-top:0;
+     }
+     .el-time-spinner__item{
+       width:40px;
+       font-size:20px;
+     }
+     .el-time-spinner.has-seconds .el-time-spinner__wrapper{
+       width: auto;
+     }
+     .el-time-spinner{
+       text-align:center;
+     }
+   }
+ }
+  //设置select
+  .setselectss{
+    .el-input__suffix{
+      .el-input__icon{
+        position: relative;
+        top: 80px!important;
+        left: -2px!important;
+      }
+    }
+  }
+  .el-select-dropdown{
+      //position:unset!important;
+      //top: 142px !important;
+      margin-top: -200px!important;
+      margin-left: 52px;
+      .el-select-dropdown__empty{
+        height:200px;
+        line-height:40px;
+        font-size:1em;
+      }
+    .popper__arrow{
+      transform: rotate(-9deg);
+      -webkit-transform:rotate(-90deg);
+      -moz-transform:rotate(-90deg);
+      -o-transform:rotate(-90deg);
+      left:-10px!important;
+      top:10px!important;
+    }
+      .el-select-dropdown__list{
+        height:200px;
+        .el-select-dropdown__item{
+          float:left;
+          display:block;
+          padding: 0 5px!important;
+          height:190px;
+          span{
+            padding:0;
+            display:block;
+            //text-orientation: sideways;
+          }
+        }
+      }
+    }
+
+  .el-form{
+    .el-form-item__label{
+      width:40px;
+    }
+  }
+  .pagination-container,.filter-input, .filter-input span, .filters-input, .filter-inputs span{
+    font-size:1em;
+    display: inline-block;
+    .el-input {
+    input {
+       font-family: 'OrhonChaganTig';
+      -webkit-text-orientation: sideways-right;
+      padding-top:20px !important;
+      width:40px;
+      height: 200px;
+      display: table-cell;
+      // font-size:20px;
+        .el-input__inner::-webkit-input-placeholder{
+          font-size:13px;
+        }
+      }
+    }
+  }
+  .el-table tr th{
+    padding: 0px;
+    background:#e33434 !important;
+    color:#fff;
+    -webkit-text-orientation: sideways-right;
+  }
+ .el-table th .cell{
+   //padding-top: 5px;
+   white-space: pre-wrap;
+   word-break: keep-all;
+ }
+  .el-table__header,.el-table__body{
+    height:100%;
+    //table-layout:auto!important;
+  }
+ //.el-table__body{
+ //  .is-center{
+ //    //padding: 0 5px!important;
+ //    min-height: 20px;
+ //  }
+ //  .cell{
+ //    //height: 50px;
+ //    padding: 5px 0px!important;
+ //  }
+ //}
+ //暂时性解决dialog 问题 https://github.com/ElemeFE/element/issues/2461
+ .el-dialog {
+   transform: none;
+   position: relative;
+   margin:0 30px;
+   height:auto;
+ }
+ .popper__arrow{
+   left: 63px!important;
+   top: -7px!important;
+ }
+
+ //文章页textarea修改样式
+ .article-textarea {
+   textarea {
+     padding-right: 40px;
+     resize: none;
+     border: none;
+     border-radius: 0px;
+     border-bottom: 1px solid #bfcbd9;
+   }
+ }
+ .filter-container .el-button, .filter-input .el-button{
+  background:#e33434;
+  border:none;
+  &:hover{
+    background:#ff4d4d;
+  }
+  &:active{
+    background:#e33434;
+  }
+ }
+ //element ui upload
+ .upload-container {
+   .el-upload {
+     width: 100%;
+     .el-upload-dragger {
+       width: 100%;
+       height: 200px;
+     }
+   }
+ }
+.el-textarea__inner{
+  writing-mode:vertical-lr;
+    display:table-cell;
+  }
+  .el-button span{
+    font-family: 'OrhonChaganTig';
+    writing-mode:vertical-lr;
+    -webkit-text-orientation: sideways-right;
+  }
+//设置
+ .collapse-button{
+   writing-mode:vertical-lr;
+   border: none;
+ .el-collapse-item__header{
+   height: 100%;
+   border: none;
+ }}
+ .el-collapse {
+   border: none!important;
+ }
+ .filters-input{
+   height: 100%;
+   .el-input{
+     height: 100%;
+     .el-input__inner{
+       height: 100%!important;
+     }
+   }
+ }
+ .el-tree__empty-text{
+   top: 100%!important;
+ }
+ .el-tree{
+   margin-left: 40px;
+   writing-mode:horizontal-tb;
+   span{
+     writing-mode:horizontal-tb;
+   }
+ }

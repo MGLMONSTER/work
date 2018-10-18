@@ -1,0 +1,88 @@
+<template>
+    <div id="id" >
+      <!-- 主办单位 -->
+        <div class="bot">
+            <span class="ok1">ᠭᠣᠣᠯᠯᠠᠨ </span>
+            <span class="ok1" >ᠡᠷᠬᠢᠯᠡᠭᠰᠡᠨ  </span>
+            <span class="ok1" >ᠨᠢᠭᠡᠴᠢ </span>
+            <span class="ok1">：  </span>
+            <!-- 中共鄂尔多斯组织部 -->
+            <span class="ok1">ᠳᠤᠮᠳᠠᠳᠤ  </span>
+            <span class="ok1">ᠤᠯᠤᠰ   </span>
+            <span class="ok1">ᠤᠨ  </span>
+            <span class="ok1">ᠡᠪ  </span>
+            <span class="ok1">ᠬᠠᠮᠲᠦ   </span>
+            <span class="ok1">ᠨᠡᠮ  </span>
+            <span class="ok1">ᠦᠨ  </span>
+            <span class="ok1">ᠣᠷᠳᠣᠰ   </span>
+            <span class="ok1">ᠬᠤᠲᠠ  </span>
+            <span class="ok1">ᠶᠢᠨ  </span>
+            <span class="ok1">ᠨᠠᠮ   </span>
+            <span class="ok1">ᠦᠨ  </span>
+            <span class="ok1">ᠬᠤᠷᠢᠶᠠᠨ    </span>
+            <span class="ok1">ᠤ  </span>
+            <span class="ok1">ᠵᠤᠬᠢᠶᠠᠨ   </span>
+            <span class="ok1">ᠪᠠᠶᠢᠭᠤᠯᠬᠤ   </span>
+            <span class="ok1">ᠭᠡᠯᠳᠡᠰ  </span>
+            <span class="ok1"> ｜  </span>
+            <!-- 技术支持 -->
+            <span class="ok1">ᠮᠠᠷᠭᠡᠵᠢᠯ    </span>
+            <span class="ok1">ᠬᠠᠩᠭᠠᠬᠤ  </span>
+            <span class="ok1">：  </span>
+            
+            <a target="_blank" href="http://www.orhonit.com/">
+                    <span class="ok1">ᠦᠪᠦᠷ  </span>
+            <span class="ok1">ᠮᠣᠩᠭᠣᠯ   </span>
+            <span class="ok1">ᠤᠨ   </span>
+            <span class="ok1">ᠤᠷᠬᠤᠨ   </span>
+            <span class="ok1">ᠰᠢᠨᠵᠢᠯᠡᠭᠡ    </span>
+            <span class="ok1">ᠮᠡᠷᠭᠡᠵᠢᠯ   </span>
+            <span class="ok1">ᠦᠨ    </span>
+            <span class="ok1">ᠬᠢᠵᠠᠭᠠᠷᠲᠤ    </span>
+            <span class="ok1">ᠺᠣᠮᠫᠠᠨᠢ  </span>
+            </a> 
+        </div>
+      <!-- <div class="ok1">ᠦᠪᠦᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠤᠷᠬᠤᠨ ᠰᠢᠨᠵᠢᠯᠡᠭᠡ ᠮᠡᠷᠭᠡᠵᠢᠯ ᠦᠨ ᠬᠢᠵᠠᠭᠠᠷᠲᠤ ᠺᠣᠮᠫᠠᠨᠢ</div> -->
+         <!-- 主办单位：中共鄂尔多斯市委组织部｜技术支持：<a target="_blank" href="http://www.orhonit.com/">内蒙古奥尔弘科技有限公司</a> | 400-805-2232京ICP备11008151号 -->
+    </div>
+</template>
+<script>
+    export default {
+        data(){
+            return {
+                minHeight:0,
+            }
+        },
+        mounted(){
+           
+        }
+    }
+</script>
+<style scoped>
+    #id{
+        padding: 10px 0;
+        border:1px solid red;
+        height:60px;
+        width:100%;
+        position:fixed;
+        bottom:0;
+        left:0;
+        box-sizing: border-box;
+        background:#c62f2f;
+        vertical-align: top;
+        line-height:40px;
+        font-size:12px;
+        color:#feb7b7;
+        z-index:100000;
+        writing-mode: vertical-lr;
+        overflow: hidden;
+    }
+    .bot{
+        width: 960px;
+        height: 40px;
+        position: absolute;
+        left: 50%;
+        margin-left: -480px;
+    }
+    
+</style>

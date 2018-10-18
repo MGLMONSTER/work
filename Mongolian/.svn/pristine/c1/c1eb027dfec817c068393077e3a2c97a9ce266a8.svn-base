@@ -1,0 +1,28 @@
+.grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+  }
+.first-title{
+  font-size: 17px;
+  font-weight: bold;
+  color: #bbb;
+  text-align: center;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+}
+.filter-container{
+    text-align: left;
+    color: #bbb;
+}
+.filter-container span{
+  font-size: 15px;
+  padding: 10px;
+}
+.filter-container select{
+  color: #bbb;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  height: 35px;
+  border-radius:5px;
+}

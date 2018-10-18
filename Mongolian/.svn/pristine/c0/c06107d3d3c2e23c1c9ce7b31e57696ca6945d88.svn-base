@@ -1,0 +1,15 @@
+.filter-container {
+  margin:20px 0 0 20px;
+}
+.filter-container span{
+    font-size: 15px;
+    margin: 10px;
+    color: #bbb;
+  }
+.filter-container select{
+  color: #bbb;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  height: 35px;
+  border-radius:5px;
+}

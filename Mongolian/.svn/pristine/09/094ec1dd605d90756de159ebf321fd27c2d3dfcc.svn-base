@@ -1,0 +1,4178 @@
+@charset "UTF-8";
+.orhon_mgl,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children,
+.orhon-demon .thematic .mongolian_culture_sub_category,
+.orhon-demon .links,
+.orhon-demon .resource-search .search,
+.orhon-demon .resource-search .search .search-field,
+.orhon-demon .top-navbar,
+.searchbox,
+.kc-category,
+.container.bg-pd.news main.main-content .page-header h2.edu-title,
+.container.bg-pd.news main.main-content article.post.page ul#crumbs li a,
+.container.bg-pd.news main.main-content article.post.page section.post-content,
+.single_breadcrumbs,
+.toggle_menu_item .show_item,
+.toggle_menu_item .hide_item,
+.list-group.atachment_list,
+.activity_container section.activity_info .thumb_container span.join_to_activity,
+.activity_container section.activity_info .activity_infomatiuons .infolist,
+.activity_container section.activity_description .description_header,
+.activity_container section.res_list_section .resourcelist ul.activity_res_list,
+div.alertFramclass,
+.activity_list .thumbnail h3.title,
+.developing .post-content .entry-content,
+.rating .post-ratings span.notrated,
+.rating .post-ratings .post-ratings-text {
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -o-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    -moz-writing-mode: vertical-lr;
+    font-family: "OrhonChaganTig";
+    unicode-bidi: embed;
+    text-orientation: sideways-right;
+    -webkit-text-orientation: sideways-right;
+    -mz-text-orientation: sideways-right;
+    -o-text-orientation: sideways-right;
+    -ms-text-orientation: sideways-right;
+    word-spacing: normal;
+    word-wrap: normal;
+    word-break: keep-all;
+    text-align: left;
+}
+
+.matrix-center-center,
+.jconfirm .jconfirm-box {
+    transform-origin: 50% 50%;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+    -ms-transform-origin: 50% 50%;
+    -ms-transform: matrix(0, 1, 1, 0, 0, 0);
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transform: matrix(0, 1, 1, 0, 0, 0);
+    -o-transform-origin: 50% 50%;
+    -o-transform: matrix(0, 1, 1, 0, 0, 0);
+    -moz-transform-origin: 50% 50%;
+    -moz-transform: matrix(0, 1, 1, 0, 0, 0);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.line20 {
+    width: 100%;
+    height: 20px;
+}
+
+.line30 {
+    width: 100%;
+    height: 30px;
+}
+
+.line40 {
+    width: 100%;
+    height: 40px;
+}
+
+.line50 {
+    width: 100%;
+    height: 50px;
+}
+
+.line60 {
+    width: 100%;
+    height: 60px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+html,
+body {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 100%;
+    color: black;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    background: #efefef;
+    font-family: "OrhonChaganTig";
+    color: #666;
+}
+.writing-mode-initial{
+    writing-mode: initial;
+    -webkit-writing-mode: initial;
+    -ms-writing-mode: lr-tb;
+    -o-writing-mode: initial;
+    -moz-writing-mode: initial;
+    text-orientation: initial;
+    -webkit-text-orientation: initial;
+    -ms-text-orientation: initial;
+    -o-text-orientation: initial;
+    -moz-text-orientation: initial;
+    unicode-bidi: initial;
+    word-spacing: normal;
+    word-wrap: normal;
+    word-break: keep-all;
+}
+.fl {
+    display: block;
+    float: left;
+}
+
+.fr {
+    display: block;
+    float: right;
+}
+
+.orhon-demon {
+    font-size: 18px;
+    background: rgba(107, 172, 223, 0) url(../img/body-shuiying.png) repeat;
+    background-size: auto 230px;
+    /*header background*/
+    /*header background end*/
+    /* index */
+    /* kechengziyuan */
+    /* kechengziyuan */
+    /* kechengziyuan end*/
+    /* teseziyuan */
+    /* teseziyuan end*/
+    /* zhuantiziyuan */
+    /* zhuantiziyuan end */
+    /* youqinglianj */
+    /* youqinglianj end */
+    /* ziyuanshousuo */
+    /* ziyuanshousuo end*/
+    /* index end*/
+    /* xiangxiye */
+}
+
+.orhon-demon a {
+    color: #666;
+    /*margin-left:5px;*/
+}
+
+.orhon-demon .wp-pagenavi {
+    clear: both;
+    padding: 20px 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.orhon-demon .wp-pagenavi span {
+    text-decoration: none;
+    border: 1px solid #63b5e5;
+    padding: 9px 15px;
+    color: #057ccf;
+    margin: 2px;
+}
+
+.orhon-demon .wp-pagenavi a {
+    text-decoration: none;
+    border: 1px solid #63b5e5;
+    padding: 3px 5px;
+    margin: 2px;
+    padding: 9px 15px;
+}
+
+.orhon-demon .wp-pagenavi a.last span,
+.orhon-demon .wp-pagenavi a.first span {
+    border: none;
+}
+
+.orhon-demon .nav-tabs {
+
+    margin-top:-5px;
+}
+
+.orhon-demon .nav-tabs li a {
+    overflow: hidden;
+}
+
+.orhon-demon .nav.nav-tabs > li > a:focus,
+.orhon-demon .nav.nav-tabs > li > a:hover,
+.orhon-demon .nav.nav-tabs > li.active > a {
+    text-decoration: none;
+    color: #fff!important;
+    height: 130px;
+    background-color: #63b5e5!important;
+    border: 0px;
+    border-radius: 4px;
+    text-align: left;
+}
+.orhon-demon .nav.nav-tabs > li{
+  width: auto;
+  height: auto;
+}
+.orhon-demon .nav.nav-tabs > li > a {
+    text-decoration: none;
+    height: 130px;
+    border: 0px;
+    border-radius: 4px;
+    text-align:left;
+}
+.orhon-demon .header-box {
+    background: url(../img/header-bg.jpg) repeat-x top center;
+    background-size: auto 100%;
+}
+
+.orhon-demon .s-header-bg,
+.orhon-demon .z-header-bg {
+    /* nav */
+    /* nav end*/
+}
+
+.orhon-demon .s-header-bg .navbar-collapse.collapse,
+.orhon-demon .z-header-bg .navbar-collapse.collapse {
+    background: rgba(61, 86, 88, 0.5);
+}
+
+.orhon-demon .s-header-bg .navbar-toggle,
+.orhon-demon .z-header-bg .navbar-toggle {
+    background: #93c462;
+    border-color: rgba(162, 217, 107, 0.35);
+}
+
+.orhon-demon .s-header-bg .navbar-toggle span,
+.orhon-demon .z-header-bg .navbar-toggle span {
+    background: #fff;
+}
+
+.orhon-demon .s-header-bg .navbar-default,
+.orhon-demon .z-header-bg .navbar-default {
+    background: none;
+    border: 0px;
+}
+
+.orhon-demon .s-header-bg .navbar-default .navbar-nav,
+.orhon-demon .z-header-bg .navbar-default .navbar-nav {
+    display: block;
+    margin: 0px auto;
+}
+
+.orhon-demon .s-header-bg .navbar-default .navbar-nav li,
+.orhon-demon .z-header-bg .navbar-default .navbar-nav li {
+    float: left;
+}
+
+.orhon-demon .s-header-bg .navbar-default .navbar-nav li a,
+.orhon-demon .z-header-bg .navbar-default .navbar-nav li a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.orhon-demon .s-header-bg .header-bt-bg,
+.orhon-demon .z-header-bg .header-bt-bg {
+    background: url(../img/header-bt-bg.png) repeat-x;
+    background-size: auto 100%;
+}
+
+.orhon-demon .z-header-bg {
+    background: url(../img/z-header-bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    padding: 4% 0px;
+}
+
+.orhon-demon .z-header-bg .logo {
+    width: 100%;
+    margin: 10% auto;
+    text-align: left;
+}
+
+.orhon-demon .z-header-bg .logo img {
+    height: auto;
+}
+
+.orhon-demon .green {
+    background: #61c36e url(../img/kjtd-bg.png) no-repeat right center;
+}
+
+.orhon-demon .bule {
+    background: #107edf url(../img/kjtd-bg.png) no-repeat right center;
+}
+
+.orhon-demon .purple {
+    background: #6960d7 url(../img/kjtd-bg.png) no-repeat right center;
+}
+
+.orhon-demon .sky-blue {
+    background: #63b5e5 url(../img/kjtd-bg.png) no-repeat right center;
+}
+
+.orhon-demon .pink {
+    background: #bd84e3 url(../img/kjtd-bg.png) no-repeat right center;
+}
+
+.orhon-demon .ysyy img {
+    width: 100%;
+    height: auto;
+}
+
+.orhon-demon .plate {
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+.orhon-demon .bg3 {
+    background: #e4eef3;
+}
+
+.orhon-demon .bg4 {
+    background: #829cb3;
+    padding-top: 20px;
+}
+
+.orhon-demon .page-title {
+    margin-top: 30px;
+}
+
+.orhon-demon .page-title h2 {
+     min-width: 175px;
+    height: 100px;
+    float: left;
+    color: #646d7b;
+    margin: 0px;
+    font-size: 30px;
+    background: #fff;
+}
+
+.orhon-demon .page-title h2 span {
+    display: block;
+    float: left;
+}
+
+.orhon-demon .page-title h2 .glyphicon {
+    line-height: 85px;
+    font-size: 20px;
+}
+
+.orhon-demon .page-title .page-title-bg,
+.orhon-demon .page-title .page-title-bg1 {
+    height: 100px;
+    float: left;
+    background: url(../img/page-title.png) repeat-x center center;
+}
+
+.orhon-demon .page-title .page-title-bg {
+/*    width: calc(100% - 262px);*/
+}
+
+.orhon-demon .page-title .page-title-bg1 {
+/*    width: calc(100% - 150px);*/
+}
+
+.orhon-demon .page-title .more {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.orhon-demon .page-title .more a {
+    display: block;
+    width: 82px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    background: #63b5e5;
+    color: #fff;
+    float: right;
+    margin-top: 38px;
+    text-decoration: none;
+}
+
+.orhon-demon .course-main {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.orhon-demon .course-main .kc-category .kc-category-box,
+.orhon-demon .course-main .kc-category .ml-category-box {
+    height: 100%;
+    float: left;
+    background: #f5f6f7 url(../img/bhw.jpg) no-repeat right bottom;
+    border: 1px solid #fff;
+}
+
+.orhon-demon .course-main .kc-category .kc-category-box .fl-category-list,
+.orhon-demon .course-main .kc-category .kc-category-box .ml-category-list,
+.orhon-demon .course-main .kc-category .ml-category-box .fl-category-list,
+.orhon-demon .course-main .kc-category .ml-category-box .ml-category-list {
+    height: 100%;
+    padding: 20px;
+    overflow-x: auto;
+    float: left;
+}
+
+.orhon-demon .course-main .kc-category .kc-category-box .fl-category-list ul li a,
+.orhon-demon .course-main .kc-category .kc-category-box .ml-category-list ul li a,
+.orhon-demon .course-main .kc-category .ml-category-box .fl-category-list ul li a,
+.orhon-demon .course-main .kc-category .ml-category-box .ml-category-list ul li a {
+    display: block;
+    /*width: 50;*/
+    /*height: 200px;*/
+    line-height: 45px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #839eb7;
+    text-decoration: none;
+}
+
+.orhon-demon .course-main .kc-category .kc-category-box .fl-category-list,
+.orhon-demon .course-main .kc-category .ml-category-box .fl-category-list {
+    width: calc(100% - 180px);
+}
+
+.orhon-demon .course-main .kc-category .kc-category-box .fl-category-list ul li,
+.orhon-demon .course-main .kc-category .ml-category-box .fl-category-list ul li {
+    /*background: url(../img/zhankai.png) no-repeat center top;*/
+    padding-top: 20px;
+}
+
+.orhon-demon .course-main .kc-category .kc-category-box .ml-category-list,
+.orhon-demon .course-main .kc-category .ml-category-box .ml-category-list {
+    width: calc(100% - 64px);
+}
+
+.orhon-demon .course-main .kc-category .kc-category-box .ml-category-list ul li,
+.orhon-demon .course-main .kc-category .ml-category-box .ml-category-list ul li {
+    background: url(../img/wenjian.png) no-repeat center top;
+    padding-top: 20px;
+}
+
+.orhon-demon .course-main .kc-category .kc-category-box .ml-category-list ul li.custom_hiqiyel_item a,
+.orhon-demon .course-main .kc-category .ml-category-box .ml-category-list ul li.custom_hiqiyel_item a {
+    color: #8cd340;
+}
+
+.orhon-demon .course-main .kc-category .ml-category-box {
+    width: 100%;
+}
+
+.orhon-demon .course-main .kc-category .course-title,
+.orhon-demon .course-main .kc-category .course-mulu {
+    width: 63px;
+    height: 100%;
+    float: left;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 50px;
+    line-height: 63px;
+    border: 1px solid #f5f6f7;
+}
+
+.orhon-demon .course-main .kc-category .course-title {
+    background: #63b5e5 url(../img/fl-bg.png) no-repeat center top;
+}
+
+.orhon-demon .course-main .kc-category .course-mulu {
+    background: #d5b99b url(../img/fl-bg.png) no-repeat center top;
+}
+
+.orhon-demon .course-main .kc-category .flxz {
+    background: #74b2b1 url(../img/fl-bg.png) no-repeat center top;
+}
+
+.orhon-demon .course-main .kc-category .mlxz {
+    background: #eeaa60 url(../img/fl-bg.png) no-repeat center top;
+}
+
+.orhon-demon .course-main .course {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.orhon-demon .course-main .course .nav-tabs {
+    margin-bottom: 30px;
+}
+
+.orhon-demon .course-main .course .nav-tabs li a {
+    color: #839eb7;
+}
+
+.orhon-demon .course-main .course .nav-tabs li .dropdown-menu li {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.orhon-demon .course-main .course .nav-tabs > li.active > a,
+.orhon-demon .course-main .course .nav-tabs > li.active > a:hover,
+.orhon-demon .course-main .course .nav-tabs > li.active > a:focus {
+    color: #b44d4d;
+}
+
+.orhon-demon .features,
+.orhon-demon .thematic {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.orhon-demon .features .ts-category,
+.orhon-demon .features .zt-category,
+.orhon-demon .thematic .ts-category,
+.orhon-demon .thematic .zt-category {
+    width: 100%;
+    height:320px;
+    margin: 0px auto;
+    border-bottom:1px dashed #77addb;
+    overflow-x: auto;
+    box-shadow: 0 0 5px #ddd;
+    background: #f5f6f7 url(../img/bhw.jpg) no-repeat right bottom;
+}
+
+.orhon-demon .features .ts-category li,
+.orhon-demon .features .zt-category li,
+.orhon-demon .thematic .ts-category li,
+.orhon-demon .thematic .zt-category li {
+    height: 300px;
+    border: 1px solid #f0f5f7;
+    background: #63b5e5;
+    margin-left:10px;
+}
+
+.orhon-demon .features .ts-category li a,
+.orhon-demon .features .zt-category li a,
+.orhon-demon .thematic .ts-category li a,
+.orhon-demon .thematic .zt-category li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    padding-top: 50px;
+    line-height: 2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+
+.orhon-demon .features .ts-category li,
+.orhon-demon .thematic .ts-category li {
+    background: #63b5e5 url(../img/fl-bg.png) no-repeat center top;
+    margin-left:10px;
+    margin-top:5px;
+}
+
+.orhon-demon .features .ts-category li.current-menu-item,
+.orhon-demon .thematic .ts-category li.current-menu-item {
+    background-color: #8cd340;
+}
+
+.orhon-demon .features .featured-resources,
+.orhon-demon .thematic .featured-resources {
+    width: 100%;
+}
+
+.orhon-demon .features .overlay-figure,
+.orhon-demon .thematic .overlay-figure {
+    position: relative;
+    display: table;
+    border: solid 1px #d3e4e7;
+}
+
+.orhon-demon .features .overlay-figure .overlay-figure-content,
+.orhon-demon .thematic .overlay-figure .overlay-figure-content {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(1) translateZ(0);
+    -moz-transform: scale(1) translateZ(0);
+    transform: scale(1) translateZ(0);
+    -webkit-transition: -webkit-transform 0.5s ease 0.25s;
+    -moz-transition: -moz-transform 0.5s ease 0.25s;
+    transition: transform 0.5s ease 0.25s;
+}
+
+.orhon-demon .features .overlay-figure .overlay-figure-content img,
+.orhon-demon .thematic .overlay-figure .overlay-figure-content img {
+    display: block;
+}
+
+.orhon-demon .features .overlay-figure .overlay-figure-content .overlay-figure-background,
+.orhon-demon .thematic .overlay-figure .overlay-figure-content .overlay-figure-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background: rgba(13, 120, 114, 0.5);
+}
+
+.orhon-demon .features .overlay-figure:hover .overlay-figure-content,
+.orhon-demon .thematic .overlay-figure:hover .overlay-figure-content {
+    -webkit-transform: scale(0.95) translateZ(0);
+    -moz-transform: scale(0.95) translateZ(0);
+    transform: scale(0.95) translateZ(0);
+}
+
+.orhon-demon .features .overlay-figure:hover .overlay-figure-background,
+.orhon-demon .thematic .overlay-figure:hover .overlay-figure-background {
+    opacity: 1;
+}
+
+.orhon-demon .features .overlay-figure .overlay-figure-caption,
+.orhon-demon .thematic .overlay-figure .overlay-figure-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    font-family: adobe-clean, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+    opacity: 0;
+    -webkit-transition: opacity ease 0.25s;
+    -moz-transition: opacity ease 0.25s;
+    transition: opacity ease 0.25s;
+}
+
+.orhon-demon .features .overlay-figure .overlay-figure-caption .contents,
+.orhon-demon .thematic .overlay-figure .overlay-figure-caption .contents {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.orhon-demon .features .overlay-figure .overlay-figure-caption .contents .contents-stack,
+.orhon-demon .thematic .overlay-figure .overlay-figure-caption .contents .contents-stack {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 5%;
+}
+
+.orhon-demon .features .overlay-figure .overlay-figure-caption .title,
+.orhon-demon .thematic .overlay-figure .overlay-figure-caption .title {
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    opacity: 0;
+    -webkit-transform: translateY(-100%) translateZ(0);
+    -moz-transform: translateY(-100%) translateZ(0);
+    transform: translateY(-100%) translateZ(0);
+    -webkit-transition: -webkit-transform 0.5s ease 0.25s, opacity 0.15s ease 0.25s;
+    -moz-transition: -moz-transform 0.5s ease 0.25s, opacity 0.15s ease 0.25s;
+    transition: transform 0.5s ease 0.25s, opacity 0.15s ease 0.25s;
+}
+
+.orhon-demon .features .overlay-figure .overlay-figure-caption .title a,
+.orhon-demon .thematic .overlay-figure .overlay-figure-caption .title a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.orhon-demon .features .overlay-figure .overlay-figure-caption .text,
+.orhon-demon .thematic .overlay-figure .overlay-figure-caption .text {
+    display: block;
+    margin-top: 0;
+    opacity: 0;
+    -webkit-transform: translateY(100%) translateZ(0);
+    -moz-transform: translateY(100%) translateZ(0);
+    transform: translateY(100%) translateZ(0);
+    -webkit-transition: -webkit-transform 0.5s ease 0.25s, opacity 0.15s ease 0.25s;
+    -moz-transition: -moz-transform 0.5s ease 0.25s, opacity 0.15s ease 0.25s;
+    transition: transform 0.5s ease 0.25s, opacity 0.15s ease 0.25s;
+}
+
+.orhon-demon .features .overlay-figure .separator,
+.orhon-demon .thematic .overlay-figure .separator {
+    display: block;
+    margin: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    width: 30%;
+    background-color: white;
+    -webkit-transform: scaleX(0) translateZ(0);
+    -moz-transform: scaleX(0) translateZ(0);
+    transform: scaleX(0) translateZ(0);
+    -webkit-transition: -webkit-transform 0.25s ease 0.25s;
+    -moz-transition: -moz-transform 0.25s ease 0.25s;
+    transition: transform 0.25s ease 0.25s;
+}
+
+.orhon-demon .features .overlay-figure:hover .overlay-figure-caption,
+.orhon-demon .thematic .overlay-figure:hover .overlay-figure-caption {
+    opacity: 1;
+}
+
+.orhon-demon .features .overlay-figure:hover .title,
+.orhon-demon .thematic .overlay-figure:hover .title {
+    opacity: 1;
+    -webkit-transform: translateY(0) translateZ(0);
+    -moz-transform: translateY(0) translateZ(0);
+    transform: translateY(0) translateZ(0);
+}
+
+.orhon-demon .features .overlay-figure:hover .separator,
+.orhon-demon .thematic .overlay-figure:hover .separator {
+    -webkit-transform: scaleX(1) translateZ(0);
+    -moz-transform: scaleX(1) translateZ(0);
+    transform: scaleX(1) translateZ(0);
+}
+
+.orhon-demon .features .overlay-figure:hover .text,
+.orhon-demon .thematic .overlay-figure:hover .text {
+    opacity: 1;
+    -webkit-transform: translateY(0) translateZ(0);
+    -moz-transform: translateY(0) translateZ(0);
+    transform: translateY(0) translateZ(0);
+}
+
+.orhon-demon .thematic {
+    width: 100%;
+    margin: 0px auto;
+    height:auto;
+
+}
+
+.orhon-demon .thematic .zt-category li.menu-item {
+    width: auto;
+    padding: 0 2px;
+}
+
+.orhon-demon .thematic .zt-category li.menu-item span.orhon_mgl,
+.orhon-demon .thematic .zt-category li.menu-item span.mongolian_culture_sub_category,
+.orhon-demon .thematic .zt-category li.menu-item span.links,
+.orhon-demon .thematic .zt-category li.menu-item .resource-search span.search,
+.orhon-demon .resource-search .thematic .zt-category li.menu-item span.search,
+.orhon-demon .thematic .zt-category li.menu-item .resource-search .search span.search-field,
+.orhon-demon .resource-search .search .thematic .zt-category li.menu-item span.search-field,
+.orhon-demon .thematic .zt-category li.menu-item span.top-navbar,
+.orhon-demon .thematic .zt-category li.menu-item span.searchbox,
+.orhon-demon .thematic .zt-category li.menu-item span.kc-category,
+.orhon-demon .thematic .zt-category li.menu-item span.single_breadcrumbs,
+.orhon-demon .thematic .zt-category li.menu-item .toggle_menu_item span.show_item,
+.toggle_menu_item .orhon-demon .thematic .zt-category li.menu-item span.show_item,
+.orhon-demon .thematic .zt-category li.menu-item span.list-group.atachment_list,
+.orhon-demon .thematic .zt-category li.menu-item .activity_container section.activity_info .thumb_container span.join_to_activity,
+.activity_container section.activity_info .thumb_container .orhon-demon .thematic .zt-category li.menu-item span.join_to_activity,
+.orhon-demon .thematic .zt-category li.menu-item .activity_container section.activity_info .activity_infomatiuons span.infolist,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon .thematic .zt-category li.menu-item span.infolist,
+.orhon-demon .thematic .zt-category li.menu-item .activity_container section.activity_description span.description_header,
+.activity_container section.activity_description .orhon-demon .thematic .zt-category li.menu-item span.description_header,
+.orhon-demon .thematic .zt-category li.menu-item .developing .post-content span.entry-content,
+.developing .post-content .orhon-demon .thematic .zt-category li.menu-item span.entry-content,
+.orhon-demon .thematic .zt-category li.menu-item .rating .post-ratings span.notrated,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.menu-item span.notrated,
+.orhon-demon .thematic .zt-category li.menu-item .rating .post-ratings span.post-ratings-text,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.menu-item span.post-ratings-text {
+    background: #63b5e5 url(../img/fl-bg.png) no-repeat center top;
+    height: 100%;
+    display: inline-block;
+}
+
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item span.orhon_mgl,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item span.mongolian_culture_sub_category,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item span.links,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item .resource-search span.search,
+.orhon-demon .resource-search .thematic .zt-category li.menu-item.current-menu-item span.search,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item .resource-search .search span.search-field,
+.orhon-demon .resource-search .search .thematic .zt-category li.menu-item.current-menu-item span.search-field,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item span.top-navbar,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item span.searchbox,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item span.kc-category,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item span.single_breadcrumbs,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item .toggle_menu_item span.show_item,
+.toggle_menu_item .orhon-demon .thematic .zt-category li.menu-item.current-menu-item span.show_item,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item span.list-group.atachment_list,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item .activity_container section.activity_info .thumb_container span.join_to_activity,
+.activity_container section.activity_info .thumb_container .orhon-demon .thematic .zt-category li.menu-item.current-menu-item span.join_to_activity,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item .activity_container section.activity_info .activity_infomatiuons span.infolist,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon .thematic .zt-category li.menu-item.current-menu-item span.infolist,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item .activity_container section.activity_description span.description_header,
+.activity_container section.activity_description .orhon-demon .thematic .zt-category li.menu-item.current-menu-item span.description_header,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item .developing .post-content span.entry-content,
+.developing .post-content .orhon-demon .thematic .zt-category li.menu-item.current-menu-item span.entry-content,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item .rating .post-ratings span.notrated,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.menu-item.current-menu-item span.notrated,
+.orhon-demon .thematic .zt-category li.menu-item.current-menu-item .rating .post-ratings span.post-ratings-text,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.menu-item.current-menu-item span.post-ratings-text {
+    background-color: #8cd340;
+}
+
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.glyphicon.toggle_sub {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    left: 18px;
+    cursor: pointer;
+}
+
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.orhon_mgl,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.mongolian_culture_sub_category,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.links,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children .resource-search span.search,
+.orhon-demon .resource-search .thematic .zt-category li.menu-item.menu-item-has-children span.search,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children .resource-search .search span.search-field,
+.orhon-demon .resource-search .search .thematic .zt-category li.menu-item.menu-item-has-children span.search-field,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.top-navbar,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.searchbox,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.kc-category,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.single_breadcrumbs,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children .toggle_menu_item span.show_item,
+.toggle_menu_item .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.show_item,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.list-group.atachment_list,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children .activity_container section.activity_info .thumb_container span.join_to_activity,
+.activity_container section.activity_info .thumb_container .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.join_to_activity,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children .activity_container section.activity_info .activity_infomatiuons span.infolist,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.infolist,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children .activity_container section.activity_description span.description_header,
+.activity_container section.activity_description .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.description_header,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children .developing .post-content span.entry-content,
+.developing .post-content .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.entry-content,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children .rating .post-ratings span.notrated,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.notrated,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children .rating .post-ratings span.post-ratings-text,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children span.post-ratings-text {
+    display: inline-block;
+}
+
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu {
+    display: none;
+}
+
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item {
+    padding: 0;
+    height: calc( 100% - 20px);
+    border: 0px;
+    margin-top: 20px;
+}
+
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor {
+    background-color: #8cd340;
+}
+
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.orhon_mgl,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.mongolian_culture_sub_category,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.links,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item .resource-search span.search,
+.orhon-demon .resource-search .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.search,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item .resource-search .search span.search-field,
+.orhon-demon .resource-search .search .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.search-field,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.top-navbar,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.searchbox,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.kc-category,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.single_breadcrumbs,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item .toggle_menu_item span.show_item,
+.toggle_menu_item .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.show_item,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.list-group.atachment_list,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item .activity_container section.activity_info .thumb_container span.join_to_activity,
+.activity_container section.activity_info .thumb_container .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.join_to_activity,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item .activity_container section.activity_info .activity_infomatiuons span.infolist,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.infolist,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item .activity_container section.activity_description span.description_header,
+.activity_container section.activity_description .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.description_header,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item .developing .post-content span.entry-content,
+.developing .post-content .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.entry-content,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item .rating .post-ratings span.notrated,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.notrated,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item .rating .post-ratings span.post-ratings-text,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-item span.post-ratings-text,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.orhon_mgl,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.mongolian_culture_sub_category,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.links,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor .resource-search span.search,
+.orhon-demon .resource-search .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.search,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor .resource-search .search span.search-field,
+.orhon-demon .resource-search .search .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.search-field,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.top-navbar,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.searchbox,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.kc-category,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.single_breadcrumbs,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor .toggle_menu_item span.show_item,
+.toggle_menu_item .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.show_item,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.list-group.atachment_list,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor .activity_container section.activity_info .thumb_container span.join_to_activity,
+.activity_container section.activity_info .thumb_container .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.join_to_activity,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor .activity_container section.activity_info .activity_infomatiuons span.infolist,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.infolist,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor .activity_container section.activity_description span.description_header,
+.activity_container section.activity_description .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.description_header,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor .developing .post-content span.entry-content,
+.developing .post-content .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.entry-content,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor .rating .post-ratings span.notrated,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.notrated,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor .rating .post-ratings span.post-ratings-text,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item.current-menu-ancestor span.post-ratings-text {
+    background-color: #8cd340;
+}
+
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.orhon_mgl,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.mongolian_culture_sub_category,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.links,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu .resource-search li.menu-item > span.search,
+.orhon-demon .resource-search .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.search,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu .resource-search .search li.menu-item > span.search-field,
+.orhon-demon .resource-search .search .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.search-field,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.top-navbar,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.searchbox,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.kc-category,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.single_breadcrumbs,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu .toggle_menu_item li.menu-item > span.show_item,
+.toggle_menu_item .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.show_item,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.list-group.atachment_list,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu .activity_container section.activity_info .thumb_container li.menu-item > span.join_to_activity,
+.activity_container section.activity_info .thumb_container .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.join_to_activity,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu .activity_container section.activity_info .activity_infomatiuons li.menu-item > span.infolist,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.infolist,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu .activity_container section.activity_description li.menu-item > span.description_header,
+.activity_container section.activity_description .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.description_header,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu .developing .post-content li.menu-item > span.entry-content,
+.developing .post-content .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.entry-content,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu .rating .post-ratings li.menu-item > span.notrated,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.notrated,
+.orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu .rating .post-ratings li.menu-item > span.post-ratings-text,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.menu-item.menu-item-has-children ul.sub-menu li.menu-item > span.post-ratings-text {
+    background: #8a9ba9 url(../img/fl-bg.png) no-repeat center top;
+    background: none;
+    height: 100%;
+}
+
+.orhon-demon .thematic .zt-category li.current-menu-ancestor,
+.orhon-demon .thematic .zt-category li.current-menu-item {
+    background-color: #8cd340;
+}
+
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.orhon_mgl,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.mongolian_culture_sub_category,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.links,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .resource-search span.search,
+.orhon-demon .resource-search .thematic .zt-category li.current-menu-ancestor span.search,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .resource-search .search span.search-field,
+.orhon-demon .resource-search .search .thematic .zt-category li.current-menu-ancestor span.search-field,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.top-navbar,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.searchbox,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.kc-category,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.single_breadcrumbs,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .toggle_menu_item span.show_item,
+.toggle_menu_item .orhon-demon .thematic .zt-category li.current-menu-ancestor span.show_item,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.list-group.atachment_list,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .activity_container section.activity_info .thumb_container span.join_to_activity,
+.activity_container section.activity_info .thumb_container .orhon-demon .thematic .zt-category li.current-menu-ancestor span.join_to_activity,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .activity_container section.activity_info .activity_infomatiuons span.infolist,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon .thematic .zt-category li.current-menu-ancestor span.infolist,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .activity_container section.activity_description span.description_header,
+.activity_container section.activity_description .orhon-demon .thematic .zt-category li.current-menu-ancestor span.description_header,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .developing .post-content span.entry-content,
+.developing .post-content .orhon-demon .thematic .zt-category li.current-menu-ancestor span.entry-content,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .rating .post-ratings span.notrated,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.current-menu-ancestor span.notrated,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .rating .post-ratings span.post-ratings-text,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.current-menu-ancestor span.post-ratings-text,
+.orhon-demon .thematic .zt-category li.current-menu-item span.orhon_mgl,
+.orhon-demon .thematic .zt-category li.current-menu-item span.mongolian_culture_sub_category,
+.orhon-demon .thematic .zt-category li.current-menu-item span.links,
+.orhon-demon .thematic .zt-category li.current-menu-item .resource-search span.search,
+.orhon-demon .resource-search .thematic .zt-category li.current-menu-item span.search,
+.orhon-demon .thematic .zt-category li.current-menu-item .resource-search .search span.search-field,
+.orhon-demon .resource-search .search .thematic .zt-category li.current-menu-item span.search-field,
+.orhon-demon .thematic .zt-category li.current-menu-item span.top-navbar,
+.orhon-demon .thematic .zt-category li.current-menu-item span.searchbox,
+.orhon-demon .thematic .zt-category li.current-menu-item span.kc-category,
+.orhon-demon .thematic .zt-category li.current-menu-item span.single_breadcrumbs,
+.orhon-demon .thematic .zt-category li.current-menu-item .toggle_menu_item span.show_item,
+.toggle_menu_item .orhon-demon .thematic .zt-category li.current-menu-item span.show_item,
+.orhon-demon .thematic .zt-category li.current-menu-item span.list-group.atachment_list,
+.orhon-demon .thematic .zt-category li.current-menu-item .activity_container section.activity_info .thumb_container span.join_to_activity,
+.activity_container section.activity_info .thumb_container .orhon-demon .thematic .zt-category li.current-menu-item span.join_to_activity,
+.orhon-demon .thematic .zt-category li.current-menu-item .activity_container section.activity_info .activity_infomatiuons span.infolist,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon .thematic .zt-category li.current-menu-item span.infolist,
+.orhon-demon .thematic .zt-category li.current-menu-item .activity_container section.activity_description span.description_header,
+.activity_container section.activity_description .orhon-demon .thematic .zt-category li.current-menu-item span.description_header,
+.orhon-demon .thematic .zt-category li.current-menu-item .developing .post-content span.entry-content,
+.developing .post-content .orhon-demon .thematic .zt-category li.current-menu-item span.entry-content,
+.orhon-demon .thematic .zt-category li.current-menu-item .rating .post-ratings span.notrated,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.current-menu-item span.notrated,
+.orhon-demon .thematic .zt-category li.current-menu-item .rating .post-ratings span.post-ratings-text,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.current-menu-item span.post-ratings-text {
+    background-color: #8cd340;
+}
+
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.orhon_mgl a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.mongolian_culture_sub_category a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.links a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .resource-search span.search a,
+.orhon-demon .resource-search .thematic .zt-category li.current-menu-ancestor span.search a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .resource-search .search span.search-field a,
+.orhon-demon .resource-search .search .thematic .zt-category li.current-menu-ancestor span.search-field a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.top-navbar a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.searchbox a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.kc-category a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.single_breadcrumbs a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .toggle_menu_item span.show_item a,
+.toggle_menu_item .orhon-demon .thematic .zt-category li.current-menu-ancestor span.show_item a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor span.list-group.atachment_list a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .activity_container section.activity_info .thumb_container span.join_to_activity a,
+.activity_container section.activity_info .thumb_container .orhon-demon .thematic .zt-category li.current-menu-ancestor span.join_to_activity a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .activity_container section.activity_info .activity_infomatiuons span.infolist a,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon .thematic .zt-category li.current-menu-ancestor span.infolist a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .activity_container section.activity_description span.description_header a,
+.activity_container section.activity_description .orhon-demon .thematic .zt-category li.current-menu-ancestor span.description_header a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .developing .post-content span.entry-content a,
+.developing .post-content .orhon-demon .thematic .zt-category li.current-menu-ancestor span.entry-content a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .rating .post-ratings span.notrated a,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.current-menu-ancestor span.notrated a,
+.orhon-demon .thematic .zt-category li.current-menu-ancestor .rating .post-ratings span.post-ratings-text a,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.current-menu-ancestor span.post-ratings-text a,
+.orhon-demon .thematic .zt-category li.current-menu-item span.orhon_mgl a,
+.orhon-demon .thematic .zt-category li.current-menu-item span.mongolian_culture_sub_category a,
+.orhon-demon .thematic .zt-category li.current-menu-item span.links a,
+.orhon-demon .thematic .zt-category li.current-menu-item .resource-search span.search a,
+.orhon-demon .resource-search .thematic .zt-category li.current-menu-item span.search a,
+.orhon-demon .thematic .zt-category li.current-menu-item .resource-search .search span.search-field a,
+.orhon-demon .resource-search .search .thematic .zt-category li.current-menu-item span.search-field a,
+.orhon-demon .thematic .zt-category li.current-menu-item span.top-navbar a,
+.orhon-demon .thematic .zt-category li.current-menu-item span.searchbox a,
+.orhon-demon .thematic .zt-category li.current-menu-item span.kc-category a,
+.orhon-demon .thematic .zt-category li.current-menu-item span.single_breadcrumbs a,
+.orhon-demon .thematic .zt-category li.current-menu-item .toggle_menu_item span.show_item a,
+.toggle_menu_item .orhon-demon .thematic .zt-category li.current-menu-item span.show_item a,
+.orhon-demon .thematic .zt-category li.current-menu-item span.list-group.atachment_list a,
+.orhon-demon .thematic .zt-category li.current-menu-item .activity_container section.activity_info .thumb_container span.join_to_activity a,
+.activity_container section.activity_info .thumb_container .orhon-demon .thematic .zt-category li.current-menu-item span.join_to_activity a,
+.orhon-demon .thematic .zt-category li.current-menu-item .activity_container section.activity_info .activity_infomatiuons span.infolist a,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon .thematic .zt-category li.current-menu-item span.infolist a,
+.orhon-demon .thematic .zt-category li.current-menu-item .activity_container section.activity_description span.description_header a,
+.activity_container section.activity_description .orhon-demon .thematic .zt-category li.current-menu-item span.description_header a,
+.orhon-demon .thematic .zt-category li.current-menu-item .developing .post-content span.entry-content a,
+.developing .post-content .orhon-demon .thematic .zt-category li.current-menu-item span.entry-content a,
+.orhon-demon .thematic .zt-category li.current-menu-item .rating .post-ratings span.notrated a,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.current-menu-item span.notrated a,
+.orhon-demon .thematic .zt-category li.current-menu-item .rating .post-ratings span.post-ratings-text a,
+.rating .post-ratings .orhon-demon .thematic .zt-category li.current-menu-item span.post-ratings-text a {
+    color: white;
+}
+.orhon-demon .btn-warning {
+    color: #fff;
+}
+.orhon-demon .thematic .mongolian_culture_sub_category {
+    width: 100%;
+    display: inline-block;
+    height: 300px;
+    padding: 10px 0;
+}
+
+.orhon-demon .thematic .mongolian_culture_sub_category ul {
+    width: 100%;
+}
+
+.orhon-demon .thematic .mongolian_culture_sub_category ul li.mongolian_culture_sub_term_item {
+    padding: 10px 5px;
+    background: rgba(150, 174, 195, 0.9);
+    margin-right: 3px;
+}
+
+.orhon-demon .thematic .mongolian_culture_sub_category ul li.mongolian_culture_sub_term_item a {
+    color: white;
+}
+
+.orhon-demon .thematic .mongolian_culture_sub_category ul li.mongolian_culture_sub_term_item.custom_hiqiyel_item a {
+    color: #8cd340;
+}
+
+.orhon-demon .thematic .thematic-resources {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.orhon-demon .thematic .thematic-resources li {
+    padding-right: 8px;
+    padding-left: 8px;
+    height: 350px;
+    margin-left:6px;
+}
+
+.links_block {
+    background: #f8fafc;
+    box-shadow: 0 0 5px #ccc;
+    padding: 20px;
+    height: 340px;
+    margin-bottom: 30px;
+}
+.links_block h2.links_title {
+    font-size: 30px;
+    padding: 0 0 0 10px;
+    width: 50px;
+    color: #708da7;
+    font-weight: normal;
+    font-style: initial;
+    border-right: 3px solid #708da7;
+    margin-right: 15px;
+}
+.links_block .row.orhon_mgl {
+    width: 100%;
+    margin: 0;
+}
+.orhon-demon ul.links {
+    height: 300px;
+    width: calc( 100% - 70px );
+    margin-bottom: 0px;
+    overflow-x: auto;
+}
+
+.orhon-demon .links h2 {
+    background: #d9e7f4;
+    color: #708da7;
+    line-height: 50px;
+    text-align: left;
+    display: block;
+    padding: 20px 0px;
+    margin-right: 10px;
+}
+
+.orhon-demon .links li.friedly_links {
+    height: 100%;
+    width: 50px;
+    margin: 0 8px 0 0px;
+    /* padding: 10px 0; */
+}
+
+.orhon-demon .links li a {
+    display: block;
+    width: 100%;
+    min-height: 100px;
+    margin: 0px auto;
+    background: #eaf1f4 url(../img/links-bg.jpg) no-repeat bottom center;
+    border: 1px solid #eee;
+    text-decoration: none;
+    color: #708da7;
+    padding: 3px 0px;
+    border-radius: 2px;
+}
+
+.orhon-demon .links li a:hover {
+    color: #db8d3d;
+}
+
+.orhon-demon .links li a img {
+    width: 100%;
+    max-width: 120px;
+    max-height: 120px;
+    margin: 0px auto;
+    display: inline-block;
+    float: left;
+    border-radius: 50%;
+}
+
+.orhon-demon .links li a .links-name {
+    display: block;
+    width: 100%;
+    height: calc( 100% - 60px);
+    margin: 0px auto;
+    margin-bottom: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 7px 11px;
+}
+.orhon-demon .resource-search {
+    width: 120px;
+    height: 252px;
+}
+
+.orhon-demon .resource-search h2 {
+    width: 50px;
+    height: 252px;
+    background: #d9e7f4;
+    color: #708da7;
+    line-height: 50px;
+    text-align: left;
+    display: block;
+    float: right;
+    margin: 0px;
+    padding: 20px 0px;
+    margin-right: 20px;
+}
+
+.orhon-demon .resource-search .search {
+    width: 50px;
+    height: 252px;
+    background: #fff;
+    float: right;
+    position: relative;
+}
+
+.orhon-demon .resource-search .search .search-field {
+    width: 50px;
+    height: 201px;
+    color: #2b2b2b;
+    font-family: OrhonChaganTig, Lato, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    border: 0px;
+    vertical-align: baseline;
+    display: table-cell;
+    padding: 5px;
+}
+
+.orhon-demon .resource-search .search .btn {
+    width: 50px;
+    height: 50px;
+    border-top: 1px solid #829cb3;
+    background: none;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 0px;
+    display: table-cell;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+}
+
+.orhon-demon .resource-search .search .btn button {
+    background: white;
+    display: inline-block;
+    border: none;
+    width: 48px;
+    height: 48px;
+    margin: 0;
+}
+
+.orhon-demon .resource-search .search .btn a {
+    color: #708da7;
+}
+
+.orhon-demon #login-modal .modal-body {
+    width: 100%;
+    height: 360px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.orhon-demon #login-modal .modal-body > div.orhon_mgl input[type="text"],
+.orhon-demon #login-modal .thematic .modal-body > div.mongolian_culture_sub_category input[type="text"],
+.orhon-demon .thematic #login-modal .modal-body > div.mongolian_culture_sub_category input[type="text"],
+.orhon-demon #login-modal .modal-body > div.links input[type="text"],
+.orhon-demon #login-modal .resource-search .modal-body > div.search input[type="text"],
+.orhon-demon .resource-search #login-modal .modal-body > div.search input[type="text"],
+.orhon-demon #login-modal .resource-search .search .modal-body > div.search-field input[type="text"],
+.orhon-demon .resource-search .search #login-modal .modal-body > div.search-field input[type="text"],
+.orhon-demon #login-modal .modal-body > div.top-navbar input[type="text"],
+.orhon-demon #login-modal .modal-body > div.searchbox input[type="text"],
+.orhon-demon #login-modal .modal-body > div.kc-category input[type="text"],
+.orhon-demon #login-modal .modal-body > div.single_breadcrumbs input[type="text"],
+.orhon-demon #login-modal .toggle_menu_item .modal-body > div.show_item input[type="text"],
+.toggle_menu_item .orhon-demon #login-modal .modal-body > div.show_item input[type="text"],
+.orhon-demon #login-modal .modal-body > div.list-group.atachment_list input[type="text"],
+.orhon-demon #login-modal .activity_container section.activity_info .activity_infomatiuons .modal-body > div.infolist input[type="text"],
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon #login-modal .modal-body > div.infolist input[type="text"],
+.orhon-demon #login-modal .activity_container section.activity_description .modal-body > div.description_header input[type="text"],
+.activity_container section.activity_description .orhon-demon #login-modal .modal-body > div.description_header input[type="text"],
+.orhon-demon #login-modal .modal-body > div.alertFramclass input[type="text"],
+.orhon-demon #login-modal .developing .post-content .modal-body > div.entry-content input[type="text"],
+.developing .post-content .orhon-demon #login-modal .modal-body > div.entry-content input[type="text"],
+.orhon-demon #login-modal .rating .post-ratings .modal-body > div.post-ratings-text input[type="text"],
+.rating .post-ratings .orhon-demon #login-modal .modal-body > div.post-ratings-text input[type="text"],
+.orhon-demon #login-modal .modal-body > div.orhon_mgl input[type="password"],
+.orhon-demon #login-modal .thematic .modal-body > div.mongolian_culture_sub_category input[type="password"],
+.orhon-demon .thematic #login-modal .modal-body > div.mongolian_culture_sub_category input[type="password"],
+.orhon-demon #login-modal .modal-body > div.links input[type="password"],
+.orhon-demon #login-modal .resource-search .modal-body > div.search input[type="password"],
+.orhon-demon .resource-search #login-modal .modal-body > div.search input[type="password"],
+.orhon-demon #login-modal .resource-search .search .modal-body > div.search-field input[type="password"],
+.orhon-demon .resource-search .search #login-modal .modal-body > div.search-field input[type="password"],
+.orhon-demon #login-modal .modal-body > div.top-navbar input[type="password"],
+.orhon-demon #login-modal .modal-body > div.searchbox input[type="password"],
+.orhon-demon #login-modal .modal-body > div.kc-category input[type="password"],
+.orhon-demon #login-modal .modal-body > div.single_breadcrumbs input[type="password"],
+.orhon-demon #login-modal .toggle_menu_item .modal-body > div.show_item input[type="password"],
+.toggle_menu_item .orhon-demon #login-modal .modal-body > div.show_item input[type="password"],
+.orhon-demon #login-modal .modal-body > div.list-group.atachment_list input[type="password"],
+.orhon-demon #login-modal .activity_container section.activity_info .activity_infomatiuons .modal-body > div.infolist input[type="password"],
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon #login-modal .modal-body > div.infolist input[type="password"],
+.orhon-demon #login-modal .activity_container section.activity_description .modal-body > div.description_header input[type="password"],
+.activity_container section.activity_description .orhon-demon #login-modal .modal-body > div.description_header input[type="password"],
+.orhon-demon #login-modal .modal-body > div.alertFramclass input[type="password"],
+.orhon-demon #login-modal .developing .post-content .modal-body > div.entry-content input[type="password"],
+.developing .post-content .orhon-demon #login-modal .modal-body > div.entry-content input[type="password"],
+.orhon-demon #login-modal .rating .post-ratings .modal-body > div.post-ratings-text input[type="password"],
+.rating .post-ratings .orhon-demon #login-modal .modal-body > div.post-ratings-text input[type="password"] {
+    display: table-cell;
+    height: 100%;
+}
+
+.orhon-demon #login-modal .modal-body > div.orhon_mgl .captchaSizeDivSmall,
+.orhon-demon #login-modal .thematic .modal-body > div.mongolian_culture_sub_category .captchaSizeDivSmall,
+.orhon-demon .thematic #login-modal .modal-body > div.mongolian_culture_sub_category .captchaSizeDivSmall,
+.orhon-demon #login-modal .modal-body > div.links .captchaSizeDivSmall,
+.orhon-demon #login-modal .resource-search .modal-body > div.search .captchaSizeDivSmall,
+.orhon-demon .resource-search #login-modal .modal-body > div.search .captchaSizeDivSmall,
+.orhon-demon #login-modal .resource-search .search .modal-body > div.search-field .captchaSizeDivSmall,
+.orhon-demon .resource-search .search #login-modal .modal-body > div.search-field .captchaSizeDivSmall,
+.orhon-demon #login-modal .modal-body > div.top-navbar .captchaSizeDivSmall,
+.orhon-demon #login-modal .modal-body > div.searchbox .captchaSizeDivSmall,
+.orhon-demon #login-modal .modal-body > div.kc-category .captchaSizeDivSmall,
+.orhon-demon #login-modal .modal-body > div.single_breadcrumbs .captchaSizeDivSmall,
+.orhon-demon #login-modal .toggle_menu_item .modal-body > div.show_item .captchaSizeDivSmall,
+.toggle_menu_item .orhon-demon #login-modal .modal-body > div.show_item .captchaSizeDivSmall,
+.orhon-demon #login-modal .modal-body > div.list-group.atachment_list .captchaSizeDivSmall,
+.orhon-demon #login-modal .activity_container section.activity_info .activity_infomatiuons .modal-body > div.infolist .captchaSizeDivSmall,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon #login-modal .modal-body > div.infolist .captchaSizeDivSmall,
+.orhon-demon #login-modal .activity_container section.activity_description .modal-body > div.description_header .captchaSizeDivSmall,
+.activity_container section.activity_description .orhon-demon #login-modal .modal-body > div.description_header .captchaSizeDivSmall,
+.orhon-demon #login-modal .modal-body > div.alertFramclass .captchaSizeDivSmall,
+.orhon-demon #login-modal .developing .post-content .modal-body > div.entry-content .captchaSizeDivSmall,
+.developing .post-content .orhon-demon #login-modal .modal-body > div.entry-content .captchaSizeDivSmall,
+.orhon-demon #login-modal .rating .post-ratings .modal-body > div.post-ratings-text .captchaSizeDivSmall,
+.rating .post-ratings .orhon-demon #login-modal .modal-body > div.post-ratings-text .captchaSizeDivSmall {
+    margin-left: 10px;
+}
+
+.orhon-demon #login-modal .modal-body > div.orhon_mgl .login-remember label,
+.orhon-demon #login-modal .thematic .modal-body > div.mongolian_culture_sub_category .login-remember label,
+.orhon-demon .thematic #login-modal .modal-body > div.mongolian_culture_sub_category .login-remember label,
+.orhon-demon #login-modal .modal-body > div.links .login-remember label,
+.orhon-demon #login-modal .resource-search .modal-body > div.search .login-remember label,
+.orhon-demon .resource-search #login-modal .modal-body > div.search .login-remember label,
+.orhon-demon #login-modal .resource-search .search .modal-body > div.search-field .login-remember label,
+.orhon-demon .resource-search .search #login-modal .modal-body > div.search-field .login-remember label,
+.orhon-demon #login-modal .modal-body > div.top-navbar .login-remember label,
+.orhon-demon #login-modal .modal-body > div.searchbox .login-remember label,
+.orhon-demon #login-modal .modal-body > div.kc-category .login-remember label,
+.orhon-demon #login-modal .modal-body > div.single_breadcrumbs .login-remember label,
+.orhon-demon #login-modal .toggle_menu_item .modal-body > div.show_item .login-remember label,
+.toggle_menu_item .orhon-demon #login-modal .modal-body > div.show_item .login-remember label,
+.orhon-demon #login-modal .modal-body > div.list-group.atachment_list .login-remember label,
+.orhon-demon #login-modal .activity_container section.activity_info .activity_infomatiuons .modal-body > div.infolist .login-remember label,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon #login-modal .modal-body > div.infolist .login-remember label,
+.orhon-demon #login-modal .activity_container section.activity_description .modal-body > div.description_header .login-remember label,
+.activity_container section.activity_description .orhon-demon #login-modal .modal-body > div.description_header .login-remember label,
+.orhon-demon #login-modal .modal-body > div.alertFramclass .login-remember label,
+.orhon-demon #login-modal .developing .post-content .modal-body > div.entry-content .login-remember label,
+.developing .post-content .orhon-demon #login-modal .modal-body > div.entry-content .login-remember label,
+.orhon-demon #login-modal .rating .post-ratings .modal-body > div.post-ratings-text .login-remember label,
+.rating .post-ratings .orhon-demon #login-modal .modal-body > div.post-ratings-text .login-remember label {
+    height: 100%;
+}
+
+.orhon-demon #login-modal .modal-body > div.orhon_mgl input#wp-submit,
+.orhon-demon #login-modal .thematic .modal-body > div.mongolian_culture_sub_category input#wp-submit,
+.orhon-demon .thematic #login-modal .modal-body > div.mongolian_culture_sub_category input#wp-submit,
+.orhon-demon #login-modal .modal-body > div.links input#wp-submit,
+.orhon-demon #login-modal .resource-search .modal-body > div.search input#wp-submit,
+.orhon-demon .resource-search #login-modal .modal-body > div.search input#wp-submit,
+.orhon-demon #login-modal .resource-search .search .modal-body > div.search-field input#wp-submit,
+.orhon-demon .resource-search .search #login-modal .modal-body > div.search-field input#wp-submit,
+.orhon-demon #login-modal .modal-body > div.top-navbar input#wp-submit,
+.orhon-demon #login-modal .modal-body > div.searchbox input#wp-submit,
+.orhon-demon #login-modal .modal-body > div.kc-category input#wp-submit,
+.orhon-demon #login-modal .modal-body > div.single_breadcrumbs input#wp-submit,
+.orhon-demon #login-modal .toggle_menu_item .modal-body > div.show_item input#wp-submit,
+.toggle_menu_item .orhon-demon #login-modal .modal-body > div.show_item input#wp-submit,
+.orhon-demon #login-modal .modal-body > div.list-group.atachment_list input#wp-submit,
+.orhon-demon #login-modal .activity_container section.activity_info .activity_infomatiuons .modal-body > div.infolist input#wp-submit,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon #login-modal .modal-body > div.infolist input#wp-submit,
+.orhon-demon #login-modal .activity_container section.activity_description .modal-body > div.description_header input#wp-submit,
+.activity_container section.activity_description .orhon-demon #login-modal .modal-body > div.description_header input#wp-submit,
+.orhon-demon #login-modal .modal-body > div.alertFramclass input#wp-submit,
+.orhon-demon #login-modal .developing .post-content .modal-body > div.entry-content input#wp-submit,
+.developing .post-content .orhon-demon #login-modal .modal-body > div.entry-content input#wp-submit,
+.orhon-demon #login-modal .rating .post-ratings .modal-body > div.post-ratings-text input#wp-submit,
+.rating .post-ratings .orhon-demon #login-modal .modal-body > div.post-ratings-text input#wp-submit {
+    display: table-cell;
+    background: #107edf;
+    color: white;
+    border: none;
+    height: 120px;
+    border-radius: 2px;
+    margin: 40px 10px;
+}
+
+.orhon-demon #login-modal .modal-body > div.orhon_mgl .resetpasswd,
+.orhon-demon #login-modal .thematic .modal-body > div.mongolian_culture_sub_category .resetpasswd,
+.orhon-demon .thematic #login-modal .modal-body > div.mongolian_culture_sub_category .resetpasswd,
+.orhon-demon #login-modal .modal-body > div.links .resetpasswd,
+.orhon-demon #login-modal .resource-search .modal-body > div.search .resetpasswd,
+.orhon-demon .resource-search #login-modal .modal-body > div.search .resetpasswd,
+.orhon-demon #login-modal .resource-search .search .modal-body > div.search-field .resetpasswd,
+.orhon-demon .resource-search .search #login-modal .modal-body > div.search-field .resetpasswd,
+.orhon-demon #login-modal .modal-body > div.top-navbar .resetpasswd,
+.orhon-demon #login-modal .modal-body > div.searchbox .resetpasswd,
+.orhon-demon #login-modal .modal-body > div.kc-category .resetpasswd,
+.orhon-demon #login-modal .modal-body > div.single_breadcrumbs .resetpasswd,
+.orhon-demon #login-modal .toggle_menu_item .modal-body > div.show_item .resetpasswd,
+.toggle_menu_item .orhon-demon #login-modal .modal-body > div.show_item .resetpasswd,
+.orhon-demon #login-modal .modal-body > div.list-group.atachment_list .resetpasswd,
+.orhon-demon #login-modal .activity_container section.activity_info .activity_infomatiuons .modal-body > div.infolist .resetpasswd,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon #login-modal .modal-body > div.infolist .resetpasswd,
+.orhon-demon #login-modal .activity_container section.activity_description .modal-body > div.description_header .resetpasswd,
+.activity_container section.activity_description .orhon-demon #login-modal .modal-body > div.description_header .resetpasswd,
+.orhon-demon #login-modal .modal-body > div.alertFramclass .resetpasswd,
+.orhon-demon #login-modal .developing .post-content .modal-body > div.entry-content .resetpasswd,
+.developing .post-content .orhon-demon #login-modal .modal-body > div.entry-content .resetpasswd,
+.orhon-demon #login-modal .rating .post-ratings .modal-body > div.post-ratings-text .resetpasswd,
+.rating .post-ratings .orhon-demon #login-modal .modal-body > div.post-ratings-text .resetpasswd {
+    padding: 10px;
+}
+
+.orhon-demon .top-navbar {
+    max-height: 200px;
+}
+
+.orhon-demon footer {
+    width: 100%;
+    background: #708da7;
+    color: #fff;
+    text-align: center;
+}
+
+.orhon-demon footer .orhon_mgl,
+.orhon-demon footer .thematic .zt-category li.menu-item.menu-item-has-children,
+.orhon-demon .thematic .zt-category footer li.menu-item.menu-item-has-children,
+.orhon-demon footer .thematic .mongolian_culture_sub_category,
+.orhon-demon .thematic footer .mongolian_culture_sub_category,
+.orhon-demon footer .links,
+.orhon-demon footer .resource-search .search,
+.orhon-demon .resource-search footer .search,
+.orhon-demon footer .resource-search .search .search-field,
+.orhon-demon .resource-search .search footer .search-field,
+.orhon-demon footer .top-navbar,
+.orhon-demon footer .searchbox,
+.orhon-demon footer .kc-category,
+.orhon-demon footer .container.bg-pd.news main.main-content .page-header h2.edu-title,
+.container.bg-pd.news main.main-content .page-header .orhon-demon footer h2.edu-title,
+.orhon-demon footer .container.bg-pd.news main.main-content article.post.page ul#crumbs li a,
+.container.bg-pd.news main.main-content article.post.page ul#crumbs li .orhon-demon footer a,
+.orhon-demon footer .container.bg-pd.news main.main-content article.post.page section.post-content,
+.container.bg-pd.news main.main-content article.post.page .orhon-demon footer section.post-content,
+.orhon-demon footer .single_breadcrumbs,
+.orhon-demon footer .toggle_menu_item .show_item,
+.toggle_menu_item .orhon-demon footer .show_item,
+.orhon-demon footer .toggle_menu_item .hide_item,
+.toggle_menu_item .orhon-demon footer .hide_item,
+.orhon-demon footer .list-group.atachment_list,
+.orhon-demon footer .activity_container section.activity_info .thumb_container span.join_to_activity,
+.activity_container section.activity_info .thumb_container .orhon-demon footer span.join_to_activity,
+.orhon-demon footer .activity_container section.activity_info .activity_infomatiuons .infolist,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon footer .infolist,
+.orhon-demon footer .activity_container section.activity_description .description_header,
+.activity_container section.activity_description .orhon-demon footer .description_header,
+.orhon-demon footer .activity_container section.res_list_section .resourcelist ul.activity_res_list,
+.activity_container section.res_list_section .resourcelist .orhon-demon footer ul.activity_res_list,
+.orhon-demon footer div.alertFramclass,
+.orhon-demon footer .activity_list .thumbnail h3.title,
+.activity_list .thumbnail .orhon-demon footer h3.title,
+.orhon-demon footer .developing .post-content .entry-content,
+.developing .post-content .orhon-demon footer .entry-content,
+.orhon-demon footer .rating .post-ratings span.notrated,
+.rating .post-ratings .orhon-demon footer span.notrated,
+.orhon-demon footer .rating .post-ratings .post-ratings-text,
+.rating .post-ratings .orhon-demon footer .post-ratings-text {
+    color: rgba(255, 255, 255, 0.45);
+    height: 120px;
+    margin: 0px auto;
+    padding: 15px 0px;
+    display: inline-block;
+}
+
+.orhon-demon footer .orhon_mgl a,
+.orhon-demon footer .thematic .zt-category li.menu-item.menu-item-has-children a,
+.orhon-demon .thematic .zt-category footer li.menu-item.menu-item-has-children a,
+.orhon-demon footer .thematic .mongolian_culture_sub_category a,
+.orhon-demon .thematic footer .mongolian_culture_sub_category a,
+.orhon-demon footer .links a,
+.orhon-demon footer .resource-search .search a,
+.orhon-demon .resource-search footer .search a,
+.orhon-demon footer .resource-search .search .search-field a,
+.orhon-demon .resource-search .search footer .search-field a,
+.orhon-demon footer .top-navbar a,
+.orhon-demon footer .searchbox a,
+.orhon-demon footer .kc-category a,
+.orhon-demon footer .container.bg-pd.news main.main-content .page-header h2.edu-title a,
+.container.bg-pd.news main.main-content .page-header .orhon-demon footer h2.edu-title a,
+.orhon-demon footer .container.bg-pd.news main.main-content article.post.page ul#crumbs li a a,
+.container.bg-pd.news main.main-content article.post.page ul#crumbs li .orhon-demon footer a a,
+.orhon-demon footer .container.bg-pd.news main.main-content article.post.page section.post-content a,
+.container.bg-pd.news main.main-content article.post.page .orhon-demon footer section.post-content a,
+.orhon-demon footer .single_breadcrumbs a,
+.orhon-demon footer .toggle_menu_item .show_item a,
+.toggle_menu_item .orhon-demon footer .show_item a,
+.orhon-demon footer .toggle_menu_item .hide_item a,
+.toggle_menu_item .orhon-demon footer .hide_item a,
+.orhon-demon footer .list-group.atachment_list a,
+.orhon-demon footer .activity_container section.activity_info .thumb_container span.join_to_activity a,
+.activity_container section.activity_info .thumb_container .orhon-demon footer span.join_to_activity a,
+.orhon-demon footer .activity_container section.activity_info .activity_infomatiuons .infolist a,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon footer .infolist a,
+.orhon-demon footer .activity_container section.activity_description .description_header a,
+.activity_container section.activity_description .orhon-demon footer .description_header a,
+.orhon-demon footer .activity_container section.res_list_section .resourcelist ul.activity_res_list a,
+.activity_container section.res_list_section .resourcelist .orhon-demon footer ul.activity_res_list a,
+.orhon-demon footer div.alertFramclass a,
+.orhon-demon footer .activity_list .thumbnail h3.title a,
+.activity_list .thumbnail .orhon-demon footer h3.title a,
+.orhon-demon footer .developing .post-content .entry-content a,
+.developing .post-content .orhon-demon footer .entry-content a,
+.orhon-demon footer .rating .post-ratings span.notrated a,
+.rating .post-ratings .orhon-demon footer span.notrated a,
+.orhon-demon footer .rating .post-ratings .post-ratings-text a,
+.rating .post-ratings .orhon-demon footer .post-ratings-text a {
+    color: #d3e2e6;
+}
+
+.orhon-demon .detail-main {
+    width: 100%;
+    // height: 80vh;
+    margin: 0;
+    padding: 5px;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+    background: #f5f6f7 url(../img/bhw.jpg) no-repeat right bottom;
+    background-size: 40%;
+    min-height: 400px;
+    resize: vertical;
+    max-height: 90vh;
+    position: relative;
+}
+.orhon-demon .detail-main.video{
+    height: 80vh;
+}
+.orhon-demon .detail-main.audio{
+    height: 200px;
+}
+.orhon-demon .detail-main a.new_window {
+    position: absolute;
+    right: 0;
+    top: 0;
+    writing-mode: horizontal-tb;
+}
+
+.orhon-demon .detail-main.metabox {
+    min-height: 200px;
+    max-height: 300px;
+    height: 300px;
+}
+
+.orhon-demon .detail-main img {
+    max-height: 98%;
+    max-height: calc( 100% - 20px);
+    max-height: -webkit-calc( 100% - 20px);
+    width: auto;
+}
+
+.orhon-demon .detail-main .course-default {
+    margin: 0;
+    height: 100%;
+}
+
+.orhon-demon .detail-main .course-default header {
+    border: 1px solid #ddd;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.orhon-demon .detail-main .course-default header h3 {
+    color: #839eb7;
+}
+
+.orhon-demon .detail-main .course-default header h3 small {
+    color: #999;
+}
+
+.orhon-demon .detail-main .course-default header .itr-box {
+    float: left;
+    height: 100%;
+    margin: 0;
+}
+
+.orhon-demon .detail-main .course-default header .itr-box ul {
+    display: block;
+    float: left;
+    height: 100%;
+    border-right: 1px dashed #c1cbcb;
+}
+
+.orhon-demon .detail-main .course-default header .itr-box ul li {
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+
+.orhon-demon .detail-main .course-default header .itr-box ul li span {
+    display: block;
+    float: left;
+/*    line-height: 30px;*/
+    color: #77addb;
+}
+
+.orhon-demon .detail-main .course-default header .itr-box ul li span span.glyphicon {
+    text-align: center;
+}
+
+.orhon-demon .detail-main .course-default header .itr-box ul li span.resource_size {
+    padding: 4px 0;
+}
+
+.orhon-demon .detail-main .course-default header .itr-box ul li span.resource_size::after {
+    content: ";";
+    color: #839ebb;
+    font-size: 20px;
+}
+
+.orhon-demon .detail-main .course-default header .itr-box ul li span.resource_size:last-child {
+    border-bottom: none;
+}
+
+.orhon-demon .detail-main .course-default header .itr-box ul li span.resource_size:last-child::after {
+    content: "";
+}
+
+.orhon-demon .detail-main .course-default .detail_nr {
+    color: #839eb7;
+    line-height: 36px;
+    padding: 0px 10px;
+    padding: 20px;
+}
+
+.orhon-demon .detail-main .course-default .news-list {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px auto;
+    height: 45vh;
+    margin: 20px;
+}
+
+.orhon-demon .detail-main .course-default .news-list li {
+    width: 40px;
+    line-height: 40px;
+    float: left;
+    height: 45vh;
+    background: url(../img/news-bg.png) no-repeat center top;
+    background-size: 50% auto;
+    padding-top: 20px;
+}
+
+.orhon-demon .detail-main .course-default .news-list li a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    color: #839eb7;
+    height: 100%;
+}
+
+.orhon-demon .detail-main ul {
+    padding: 10px 15px;
+}
+
+.orhon-demon .detail-main ul li {
+    font-size: 18px;
+    padding: 5px 3px;
+    list-style-type: disc;
+    margin-top: 30px;
+}
+
+.zt-category li.menu-item,
+.ts-category li.menu-item {
+    width: auto;
+    min-width: 60px;
+}
+
+.nav-tabs li {
+    min-width:60px;
+    margin-left:10px;
+
+    border-radius:3px;
+    line-height:5px;
+    padding-top:5px;
+   /* background:#0083dc;*/
+    text-align:center;
+    height:140px;
+}
+
+.wp-video {
+    writing-mode: horizontal-tb;
+    -ms-writing-mode: lr-tb;
+}
+
+.searchbox {
+    width: 100%;
+    height: 400px;
+}
+
+.searchbox input[type="text"] {
+    display: table-cell;
+    height: 80%;
+}
+
+.searchbox #search_word {
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -o-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    -moz-writing-mode: vertical-lr;
+    font-family: "OrhonChaganTig";
+    unicode-bidi: embed;
+    text-orientation: sideways-right;
+    -webkit-text-orientation: sideways-right;
+    -mz-text-orientation: sideways-right;
+    -o-text-orientation: sideways-right;
+    -ms-text-orientation: sideways-right;
+    word-spacing: normal;
+    word-wrap: normal;
+    word-break: keep-all;
+    text-align: left;
+    width: 40px;
+}
+
+.searchbox label.orhon_mgl,
+.searchbox .orhon-demon .thematic label.mongolian_culture_sub_category,
+.orhon-demon .thematic .searchbox label.mongolian_culture_sub_category,
+.searchbox .orhon-demon label.links,
+.orhon-demon .searchbox label.links,
+.searchbox .orhon-demon .resource-search label.search,
+.orhon-demon .resource-search .searchbox label.search,
+.searchbox .orhon-demon .resource-search .search label.search-field,
+.orhon-demon .resource-search .search .searchbox label.search-field,
+.searchbox .orhon-demon label.top-navbar,
+.orhon-demon .searchbox label.top-navbar,
+.searchbox label.searchbox,
+.searchbox label.kc-category,
+.searchbox label.single_breadcrumbs,
+.searchbox .toggle_menu_item label.show_item,
+.toggle_menu_item .searchbox label.show_item,
+.searchbox label.list-group.atachment_list,
+.searchbox .activity_container section.activity_info .activity_infomatiuons label.infolist,
+.activity_container section.activity_info .activity_infomatiuons .searchbox label.infolist,
+.searchbox .activity_container section.activity_description label.description_header,
+.activity_container section.activity_description .searchbox label.description_header,
+.searchbox .developing .post-content label.entry-content,
+.developing .post-content .searchbox label.entry-content,
+.searchbox .rating .post-ratings label.post-ratings-text,
+.rating .post-ratings .searchbox label.post-ratings-text {
+    height: 100%;
+    font-size: 20px;
+}
+
+.searchbox label.orhon_mgl input[type=radio],
+.searchbox .orhon-demon .thematic label.mongolian_culture_sub_category input[type=radio],
+.orhon-demon .thematic .searchbox label.mongolian_culture_sub_category input[type=radio],
+.searchbox .orhon-demon label.links input[type=radio],
+.orhon-demon .searchbox label.links input[type=radio],
+.searchbox .orhon-demon .resource-search label.search input[type=radio],
+.orhon-demon .resource-search .searchbox label.search input[type=radio],
+.searchbox .orhon-demon .resource-search .search label.search-field input[type=radio],
+.orhon-demon .resource-search .search .searchbox label.search-field input[type=radio],
+.searchbox .orhon-demon label.top-navbar input[type=radio],
+.orhon-demon .searchbox label.top-navbar input[type=radio],
+.searchbox label.searchbox input[type=radio],
+.searchbox label.kc-category input[type=radio],
+.searchbox label.single_breadcrumbs input[type=radio],
+.searchbox .toggle_menu_item label.show_item input[type=radio],
+.toggle_menu_item .searchbox label.show_item input[type=radio],
+.searchbox label.list-group.atachment_list input[type=radio],
+.searchbox .activity_container section.activity_info .activity_infomatiuons label.infolist input[type=radio],
+.activity_container section.activity_info .activity_infomatiuons .searchbox label.infolist input[type=radio],
+.searchbox .activity_container section.activity_description label.description_header input[type=radio],
+.activity_container section.activity_description .searchbox label.description_header input[type=radio],
+.searchbox .developing .post-content label.entry-content input[type=radio],
+.developing .post-content .searchbox label.entry-content input[type=radio],
+.searchbox .rating .post-ratings label.post-ratings-text input[type=radio],
+.rating .post-ratings .searchbox label.post-ratings-text input[type=radio] {
+    position: relative;
+    margin: 3px auto;
+}
+
+.searchbox button.btn.btn-primary {
+    color: #fff;
+    background-color: #8bc96c;
+    border-color: #60ac08;
+    height: 130px;
+    height: 130px;
+    font-size: 30px;
+    padding: 0px;
+    margin: 12px 20px;
+}
+
+.kc-category {
+    display: inline-block;
+    width: 100%;
+    min-height: 90px;
+    margin: 0px auto;
+    background: #f5f6f7 url(../img/bhw.jpg) no-repeat right bottom;
+    height: 300px;
+}
+
+.kc-category > li.menu-item {
+    display: inline-block;
+    height: 100%;
+}
+
+.kc-category > li.menu-item > ul.sub-menu {
+    display: none;
+}
+
+.kc-category > li.menu-item ul.sub-menu {
+    display: none;
+}
+
+/*// .kc-category > li.menu-item.active {*/
+/*//     width: calc( 100% - 188px);*/
+/*//     width: -webkit-calc( 100% - 188px);*/
+/*//     width: -moz-calc( 100% - 188px);*/
+/*// }*/
+
+/*// .kc-category > li.menu-item.active > ul.sub-menu {*/
+/*//     display: inline-block;*/
+/*//     height: 100%;*/
+/*//     float: none;*/
+/*//     padding: 15px;*/
+/*//     width: calc( 100% - 90px);*/
+/*//     width: -webkit-calc( 100% - 90px);*/
+/*//     overflow-x: auto;*/
+/*// }*/
+
+.kc-category > li.menu-item.active > ul.sub-menu > li {
+    display: inline-block;
+    height: 100%;
+}
+
+.kc-category > li.menu-item.active > ul.sub-menu li {
+    /*background: url(../img/zhankai.png) no-repeat center top;*/
+    padding-top: 20px;
+}
+
+.kc-category > li.menu-item.active > ul.sub-menu li span.orhon_mgl a,
+.kc-category > li.menu-item.active > ul.sub-menu li .orhon-demon .thematic span.mongolian_culture_sub_category a,
+.orhon-demon .thematic .kc-category > li.menu-item.active > ul.sub-menu li span.mongolian_culture_sub_category a,
+.kc-category > li.menu-item.active > ul.sub-menu li .orhon-demon span.links a,
+.orhon-demon .kc-category > li.menu-item.active > ul.sub-menu li span.links a,
+.kc-category > li.menu-item.active > ul.sub-menu li .orhon-demon .resource-search span.search a,
+.orhon-demon .resource-search .kc-category > li.menu-item.active > ul.sub-menu li span.search a,
+.kc-category > li.menu-item.active > ul.sub-menu li .orhon-demon .resource-search .search span.search-field a,
+.orhon-demon .resource-search .search .kc-category > li.menu-item.active > ul.sub-menu li span.search-field a,
+.kc-category > li.menu-item.active > ul.sub-menu li .orhon-demon span.top-navbar a,
+.orhon-demon .kc-category > li.menu-item.active > ul.sub-menu li span.top-navbar a,
+.kc-category > li.menu-item.active > ul.sub-menu li span.searchbox a,
+.kc-category > li.menu-item.active > ul.sub-menu li span.kc-category a,
+.kc-category > li.menu-item.active > ul.sub-menu li span.single_breadcrumbs a,
+.kc-category > li.menu-item.active > ul.sub-menu li .toggle_menu_item span.show_item a,
+.toggle_menu_item .kc-category > li.menu-item.active > ul.sub-menu li span.show_item a,
+.kc-category > li.menu-item.active > ul.sub-menu li span.list-group.atachment_list a,
+.kc-category > li.menu-item.active > ul.sub-menu li .activity_container section.activity_info .thumb_container span.join_to_activity a,
+.activity_container section.activity_info .thumb_container .kc-category > li.menu-item.active > ul.sub-menu li span.join_to_activity a,
+.kc-category > li.menu-item.active > ul.sub-menu li .activity_container section.activity_info .activity_infomatiuons span.infolist a,
+.activity_container section.activity_info .activity_infomatiuons .kc-category > li.menu-item.active > ul.sub-menu li span.infolist a,
+.kc-category > li.menu-item.active > ul.sub-menu li .activity_container section.activity_description span.description_header a,
+.activity_container section.activity_description .kc-category > li.menu-item.active > ul.sub-menu li span.description_header a,
+.kc-category > li.menu-item.active > ul.sub-menu li .developing .post-content span.entry-content a,
+.developing .post-content .kc-category > li.menu-item.active > ul.sub-menu li span.entry-content a,
+.kc-category > li.menu-item.active > ul.sub-menu li .rating .post-ratings span.notrated a,
+.rating .post-ratings .kc-category > li.menu-item.active > ul.sub-menu li span.notrated a,
+.kc-category > li.menu-item.active > ul.sub-menu li .rating .post-ratings span.post-ratings-text a,
+.rating .post-ratings .kc-category > li.menu-item.active > ul.sub-menu li span.post-ratings-text a {
+    line-height: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #839eb7;
+    text-decoration: none;
+}
+
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item {
+    background-color: #8cd340;
+}
+
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.orhon_mgl,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .orhon-demon .thematic span.mongolian_culture_sub_category,
+.orhon-demon .thematic .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.mongolian_culture_sub_category,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .orhon-demon span.links,
+.orhon-demon .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.links,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .orhon-demon .resource-search span.search,
+.orhon-demon .resource-search .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.search,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .orhon-demon .resource-search .search span.search-field,
+.orhon-demon .resource-search .search .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.search-field,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .orhon-demon span.top-navbar,
+.orhon-demon .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.top-navbar,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.searchbox,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.kc-category,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.single_breadcrumbs,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .toggle_menu_item span.show_item,
+.toggle_menu_item .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.show_item,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.list-group.atachment_list,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .activity_container section.activity_info .thumb_container span.join_to_activity,
+.activity_container section.activity_info .thumb_container .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.join_to_activity,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .activity_container section.activity_info .activity_infomatiuons span.infolist,
+.activity_container section.activity_info .activity_infomatiuons .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.infolist,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .activity_container section.activity_description span.description_header,
+.activity_container section.activity_description .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.description_header,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .developing .post-content span.entry-content,
+.developing .post-content .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.entry-content,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .rating .post-ratings span.notrated,
+.rating .post-ratings .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.notrated,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .rating .post-ratings span.post-ratings-text,
+.rating .post-ratings .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.post-ratings-text,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.orhon_mgl,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .orhon-demon .thematic span.mongolian_culture_sub_category,
+.orhon-demon .thematic .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.mongolian_culture_sub_category,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .orhon-demon span.links,
+.orhon-demon .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.links,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .orhon-demon .resource-search span.search,
+.orhon-demon .resource-search .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.search,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .orhon-demon .resource-search .search span.search-field,
+.orhon-demon .resource-search .search .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.search-field,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .orhon-demon span.top-navbar,
+.orhon-demon .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.top-navbar,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.searchbox,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.kc-category,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.single_breadcrumbs,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .toggle_menu_item span.show_item,
+.toggle_menu_item .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.show_item,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.list-group.atachment_list,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .activity_container section.activity_info .thumb_container span.join_to_activity,
+.activity_container section.activity_info .thumb_container .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.join_to_activity,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .activity_container section.activity_info .activity_infomatiuons span.infolist,
+.activity_container section.activity_info .activity_infomatiuons .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.infolist,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .activity_container section.activity_description span.description_header,
+.activity_container section.activity_description .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.description_header,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .developing .post-content span.entry-content,
+.developing .post-content .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.entry-content,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .rating .post-ratings span.notrated,
+.rating .post-ratings .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.notrated,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .rating .post-ratings span.post-ratings-text,
+.rating .post-ratings .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.post-ratings-text {
+    background-color: #8cd340;
+}
+
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.orhon_mgl a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .orhon-demon .thematic span.mongolian_culture_sub_category a,
+.orhon-demon .thematic .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.mongolian_culture_sub_category a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .orhon-demon span.links a,
+.orhon-demon .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.links a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .orhon-demon .resource-search span.search a,
+.orhon-demon .resource-search .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.search a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .orhon-demon .resource-search .search span.search-field a,
+.orhon-demon .resource-search .search .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.search-field a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .orhon-demon span.top-navbar a,
+.orhon-demon .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.top-navbar a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.searchbox a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.kc-category a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.single_breadcrumbs a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .toggle_menu_item span.show_item a,
+.toggle_menu_item .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.show_item a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.list-group.atachment_list a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .activity_container section.activity_info .thumb_container span.join_to_activity a,
+.activity_container section.activity_info .thumb_container .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.join_to_activity a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .activity_container section.activity_info .activity_infomatiuons span.infolist a,
+.activity_container section.activity_info .activity_infomatiuons .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.infolist a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .activity_container section.activity_description span.description_header a,
+.activity_container section.activity_description .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.description_header a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .developing .post-content span.entry-content a,
+.developing .post-content .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.entry-content a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .rating .post-ratings span.notrated a,
+.rating .post-ratings .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.notrated a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor .rating .post-ratings span.post-ratings-text a,
+.rating .post-ratings .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-ancestor span.post-ratings-text a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.orhon_mgl a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .orhon-demon .thematic span.mongolian_culture_sub_category a,
+.orhon-demon .thematic .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.mongolian_culture_sub_category a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .orhon-demon span.links a,
+.orhon-demon .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.links a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .orhon-demon .resource-search span.search a,
+.orhon-demon .resource-search .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.search a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .orhon-demon .resource-search .search span.search-field a,
+.orhon-demon .resource-search .search .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.search-field a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .orhon-demon span.top-navbar a,
+.orhon-demon .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.top-navbar a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.searchbox a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.kc-category a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.single_breadcrumbs a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .toggle_menu_item span.show_item a,
+.toggle_menu_item .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.show_item a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.list-group.atachment_list a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .activity_container section.activity_info .thumb_container span.join_to_activity a,
+.activity_container section.activity_info .thumb_container .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.join_to_activity a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .activity_container section.activity_info .activity_infomatiuons span.infolist a,
+.activity_container section.activity_info .activity_infomatiuons .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.infolist a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .activity_container section.activity_description span.description_header a,
+.activity_container section.activity_description .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.description_header a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .developing .post-content span.entry-content a,
+.developing .post-content .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.entry-content a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .rating .post-ratings span.notrated a,
+.rating .post-ratings .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.notrated a,
+.kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item .rating .post-ratings span.post-ratings-text a,
+.rating .post-ratings .kc-category > li.menu-item.active > ul.sub-menu li.current-menu-item span.post-ratings-text a {
+    color: white;
+}
+
+.kc-category > li.menu-item.active > span.orhon_mgl,
+.orhon-demon .thematic .kc-category > li.menu-item.active > span.mongolian_culture_sub_category,
+.orhon-demon .kc-category > li.menu-item.active > span.links,
+.orhon-demon .resource-search .kc-category > li.menu-item.active > span.search,
+.orhon-demon .resource-search .search .kc-category > li.menu-item.active > span.search-field,
+.orhon-demon .kc-category > li.menu-item.active > span.top-navbar,
+.kc-category > li.menu-item.active > span.searchbox,
+.kc-category > li.menu-item.active > span.kc-category,
+.kc-category > li.menu-item.active > span.single_breadcrumbs,
+.toggle_menu_item .kc-category > li.menu-item.active > span.show_item,
+.kc-category > li.menu-item.active > span.list-group.atachment_list,
+.activity_container section.activity_info .thumb_container .kc-category > li.menu-item.active > span.join_to_activity,
+.activity_container section.activity_info .activity_infomatiuons .kc-category > li.menu-item.active > span.infolist,
+.activity_container section.activity_description .kc-category > li.menu-item.active > span.description_header,
+.developing .post-content .kc-category > li.menu-item.active > span.entry-content,
+.rating .post-ratings .kc-category > li.menu-item.active > span.notrated,
+.rating .post-ratings .kc-category > li.menu-item.active > span.post-ratings-text {
+    background-color: #8cd340;
+}
+
+.kc-category > li.menu-item > span.orhon_mgl,
+.orhon-demon .thematic .kc-category > li.menu-item > span.mongolian_culture_sub_category,
+.orhon-demon .kc-category > li.menu-item > span.links,
+.orhon-demon .resource-search .kc-category > li.menu-item > span.search,
+.orhon-demon .resource-search .search .kc-category > li.menu-item > span.search-field,
+.orhon-demon .kc-category > li.menu-item > span.top-navbar,
+.kc-category > li.menu-item > span.searchbox,
+.kc-category > li.menu-item > span.kc-category,
+.kc-category > li.menu-item > span.single_breadcrumbs,
+.toggle_menu_item .kc-category > li.menu-item > span.show_item,
+.kc-category > li.menu-item > span.list-group.atachment_list,
+.activity_container section.activity_info .thumb_container .kc-category > li.menu-item > span.join_to_activity,
+.activity_container section.activity_info .activity_infomatiuons .kc-category > li.menu-item > span.infolist,
+.activity_container section.activity_description .kc-category > li.menu-item > span.description_header,
+.developing .post-content .kc-category > li.menu-item > span.entry-content,
+.rating .post-ratings .kc-category > li.menu-item > span.notrated,
+.rating .post-ratings .kc-category > li.menu-item > span.post-ratings-text {
+    cursor: pointer;
+    width: 62px;
+    float: none;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 50px;
+    line-height: 62px;
+    border: 1px solid #f5f6f7;
+    background: #63b5e5 url(../img/fl-bg.png) no-repeat center top;
+    height: 100%;
+    display: inline-block;
+}
+
+.kc-category > li.menu-item span.orhon_mgl a,
+.kc-category > li.menu-item .orhon-demon .thematic span.mongolian_culture_sub_category a,
+.orhon-demon .thematic .kc-category > li.menu-item span.mongolian_culture_sub_category a,
+.kc-category > li.menu-item .orhon-demon span.links a,
+.orhon-demon .kc-category > li.menu-item span.links a,
+.kc-category > li.menu-item .orhon-demon .resource-search span.search a,
+.orhon-demon .resource-search .kc-category > li.menu-item span.search a,
+.kc-category > li.menu-item .orhon-demon .resource-search .search span.search-field a,
+.orhon-demon .resource-search .search .kc-category > li.menu-item span.search-field a,
+.kc-category > li.menu-item .orhon-demon span.top-navbar a,
+.orhon-demon .kc-category > li.menu-item span.top-navbar a,
+.kc-category > li.menu-item span.searchbox a,
+.kc-category > li.menu-item span.kc-category a,
+.kc-category > li.menu-item span.single_breadcrumbs a,
+.kc-category > li.menu-item .toggle_menu_item span.show_item a,
+.toggle_menu_item .kc-category > li.menu-item span.show_item a,
+.kc-category > li.menu-item span.list-group.atachment_list a,
+.kc-category > li.menu-item .activity_container section.activity_info .thumb_container span.join_to_activity a,
+.activity_container section.activity_info .thumb_container .kc-category > li.menu-item span.join_to_activity a,
+.kc-category > li.menu-item .activity_container section.activity_info .activity_infomatiuons span.infolist a,
+.activity_container section.activity_info .activity_infomatiuons .kc-category > li.menu-item span.infolist a,
+.kc-category > li.menu-item .activity_container section.activity_description span.description_header a,
+.activity_container section.activity_description .kc-category > li.menu-item span.description_header a,
+.kc-category > li.menu-item .developing .post-content span.entry-content a,
+.developing .post-content .kc-category > li.menu-item span.entry-content a,
+.kc-category > li.menu-item .rating .post-ratings span.notrated a,
+.rating .post-ratings .kc-category > li.menu-item span.notrated a,
+.kc-category > li.menu-item .rating .post-ratings span.post-ratings-text a,
+.rating .post-ratings .kc-category > li.menu-item span.post-ratings-text a {
+    color: white;
+}
+
+.kc-category > li.menu-item span.orhon_mgl a:hover,
+.kc-category > li.menu-item .orhon-demon .thematic span.mongolian_culture_sub_category a:hover,
+.orhon-demon .thematic .kc-category > li.menu-item span.mongolian_culture_sub_category a:hover,
+.kc-category > li.menu-item .orhon-demon span.links a:hover,
+.orhon-demon .kc-category > li.menu-item span.links a:hover,
+.kc-category > li.menu-item .orhon-demon .resource-search span.search a:hover,
+.orhon-demon .resource-search .kc-category > li.menu-item span.search a:hover,
+.kc-category > li.menu-item .orhon-demon .resource-search .search span.search-field a:hover,
+.orhon-demon .resource-search .search .kc-category > li.menu-item span.search-field a:hover,
+.kc-category > li.menu-item .orhon-demon span.top-navbar a:hover,
+.orhon-demon .kc-category > li.menu-item span.top-navbar a:hover,
+.kc-category > li.menu-item span.searchbox a:hover,
+.kc-category > li.menu-item span.kc-category a:hover,
+.kc-category > li.menu-item span.single_breadcrumbs a:hover,
+.kc-category > li.menu-item .toggle_menu_item span.show_item a:hover,
+.toggle_menu_item .kc-category > li.menu-item span.show_item a:hover,
+.kc-category > li.menu-item span.list-group.atachment_list a:hover,
+.kc-category > li.menu-item .activity_container section.activity_info .thumb_container span.join_to_activity a:hover,
+.activity_container section.activity_info .thumb_container .kc-category > li.menu-item span.join_to_activity a:hover,
+.kc-category > li.menu-item .activity_container section.activity_info .activity_infomatiuons span.infolist a:hover,
+.activity_container section.activity_info .activity_infomatiuons .kc-category > li.menu-item span.infolist a:hover,
+.kc-category > li.menu-item .activity_container section.activity_description span.description_header a:hover,
+.activity_container section.activity_description .kc-category > li.menu-item span.description_header a:hover,
+.kc-category > li.menu-item .developing .post-content span.entry-content a:hover,
+.developing .post-content .kc-category > li.menu-item span.entry-content a:hover,
+.kc-category > li.menu-item .rating .post-ratings span.notrated a:hover,
+.rating .post-ratings .kc-category > li.menu-item span.notrated a:hover,
+.kc-category > li.menu-item .rating .post-ratings span.post-ratings-text a:hover,
+.rating .post-ratings .kc-category > li.menu-item span.post-ratings-text a:hover {
+    text-decoration: none;
+}
+
+.image_text_content p {
+    text-indent: 20px;
+}
+
+.resouce_play.detail-main {
+    position: relative;
+    display: block;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.resouce_play.detail-main .orhon_player.video-js {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.orhon-demon .ts-category .menu-item .orhon_mgl,
+.orhon-demon .ts-category .menu-item .thematic .zt-category li.menu-item.menu-item-has-children,
+.orhon-demon .thematic .zt-category .ts-category .menu-item li.menu-item.menu-item-has-children,
+.orhon-demon .ts-category .menu-item .thematic .mongolian_culture_sub_category,
+.orhon-demon .thematic .ts-category .menu-item .mongolian_culture_sub_category,
+.orhon-demon .ts-category .menu-item .links,
+.orhon-demon .ts-category .menu-item .resource-search .search,
+.orhon-demon .resource-search .ts-category .menu-item .search,
+.orhon-demon .ts-category .menu-item .resource-search .search .search-field,
+.orhon-demon .resource-search .search .ts-category .menu-item .search-field,
+.orhon-demon .ts-category .menu-item .top-navbar,
+.orhon-demon .ts-category .menu-item .searchbox,
+.orhon-demon .ts-category .menu-item .kc-category,
+.orhon-demon .ts-category .menu-item .container.bg-pd.news main.main-content .page-header h2.edu-title,
+.container.bg-pd.news main.main-content .page-header .orhon-demon .ts-category .menu-item h2.edu-title,
+.orhon-demon .ts-category .menu-item .container.bg-pd.news main.main-content article.post.page ul#crumbs li a,
+.container.bg-pd.news main.main-content article.post.page ul#crumbs li .orhon-demon .ts-category .menu-item a,
+.orhon-demon .ts-category .menu-item .container.bg-pd.news main.main-content article.post.page section.post-content,
+.container.bg-pd.news main.main-content article.post.page .orhon-demon .ts-category .menu-item section.post-content,
+.orhon-demon .ts-category .menu-item .single_breadcrumbs,
+.orhon-demon .ts-category .menu-item .toggle_menu_item .show_item,
+.toggle_menu_item .orhon-demon .ts-category .menu-item .show_item,
+.orhon-demon .ts-category .menu-item .toggle_menu_item .hide_item,
+.toggle_menu_item .orhon-demon .ts-category .menu-item .hide_item,
+.orhon-demon .ts-category .menu-item .list-group.atachment_list,
+.orhon-demon .ts-category .menu-item .activity_container section.activity_info .thumb_container span.join_to_activity,
+.activity_container section.activity_info .thumb_container .orhon-demon .ts-category .menu-item span.join_to_activity,
+.orhon-demon .ts-category .menu-item .activity_container section.activity_info .activity_infomatiuons .infolist,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon .ts-category .menu-item .infolist,
+.orhon-demon .ts-category .menu-item .activity_container section.activity_description .description_header,
+.activity_container section.activity_description .orhon-demon .ts-category .menu-item .description_header,
+.orhon-demon .ts-category .menu-item .activity_container section.res_list_section .resourcelist ul.activity_res_list,
+.activity_container section.res_list_section .resourcelist .orhon-demon .ts-category .menu-item ul.activity_res_list,
+.orhon-demon .ts-category .menu-item div.alertFramclass,
+.orhon-demon .ts-category .menu-item .activity_list .thumbnail h3.title,
+.activity_list .thumbnail .orhon-demon .ts-category .menu-item h3.title,
+.orhon-demon .ts-category .menu-item .developing .post-content .entry-content,
+.developing .post-content .orhon-demon .ts-category .menu-item .entry-content,
+.orhon-demon .ts-category .menu-item .rating .post-ratings span.notrated,
+.rating .post-ratings .orhon-demon .ts-category .menu-item span.notrated,
+.orhon-demon .ts-category .menu-item .rating .post-ratings .post-ratings-text,
+.rating .post-ratings .orhon-demon .ts-category .menu-item .post-ratings-text {
+    white-space: normal;
+    margin: auto;
+    display: block;
+}
+
+.orhon-demon .ts-category .menu-item .orhon_mgl a,
+.orhon-demon .ts-category .menu-item .thematic .zt-category li.menu-item.menu-item-has-children a,
+.orhon-demon .thematic .zt-category .ts-category .menu-item li.menu-item.menu-item-has-children a,
+.orhon-demon .ts-category .menu-item .thematic .mongolian_culture_sub_category a,
+.orhon-demon .thematic .ts-category .menu-item .mongolian_culture_sub_category a,
+.orhon-demon .ts-category .menu-item .links a,
+.orhon-demon .ts-category .menu-item .resource-search .search a,
+.orhon-demon .resource-search .ts-category .menu-item .search a,
+.orhon-demon .resource-search .search .ts-category .menu-item .search-field a,
+.orhon-demon .ts-category .menu-item .top-navbar a,
+.orhon-demon .ts-category .menu-item .searchbox a,
+.orhon-demon .ts-category .menu-item .kc-category a,
+.orhon-demon .ts-category .menu-item .container.bg-pd.news main.main-content .page-header h2.edu-title a,
+.container.bg-pd.news main.main-content .page-header .orhon-demon .ts-category .menu-item h2.edu-title a,
+.orhon-demon .ts-category .menu-item .container.bg-pd.news main.main-content article.post.page ul#crumbs li a a,
+.container.bg-pd.news main.main-content article.post.page ul#crumbs li .orhon-demon .ts-category .menu-item a a,
+.orhon-demon .ts-category .menu-item .container.bg-pd.news main.main-content article.post.page section.post-content a,
+.container.bg-pd.news main.main-content article.post.page .orhon-demon .ts-category .menu-item section.post-content a,
+.orhon-demon .ts-category .menu-item .single_breadcrumbs a,
+.orhon-demon .ts-category .menu-item .toggle_menu_item .show_item a,
+.toggle_menu_item .orhon-demon .ts-category .menu-item .show_item a,
+.orhon-demon .ts-category .menu-item .toggle_menu_item .hide_item a,
+.toggle_menu_item .orhon-demon .ts-category .menu-item .hide_item a,
+.orhon-demon .ts-category .menu-item .list-group.atachment_list a,
+.orhon-demon .ts-category .menu-item .activity_container section.activity_info .thumb_container span.join_to_activity a,
+.activity_container section.activity_info .thumb_container .orhon-demon .ts-category .menu-item span.join_to_activity a,
+.orhon-demon .ts-category .menu-item .activity_container section.activity_info .activity_infomatiuons .infolist a,
+.activity_container section.activity_info .activity_infomatiuons .orhon-demon .ts-category .menu-item .infolist a,
+.orhon-demon .ts-category .menu-item .activity_container section.activity_description .description_header a,
+.activity_container section.activity_description .orhon-demon .ts-category .menu-item .description_header a,
+.orhon-demon .ts-category .menu-item .activity_container section.res_list_section .resourcelist ul.activity_res_list a,
+.activity_container section.res_list_section .resourcelist .orhon-demon .ts-category .menu-item ul.activity_res_list a,
+.orhon-demon .ts-category .menu-item div.alertFramclass a,
+.orhon-demon .ts-category .menu-item .activity_list .thumbnail h3.title a,
+.activity_list .thumbnail .orhon-demon .ts-category .menu-item h3.title a,
+.orhon-demon .ts-category .menu-item .developing .post-content .entry-content a,
+.developing .post-content .orhon-demon .ts-category .menu-item .entry-content a,
+.orhon-demon .ts-category .menu-item .rating .post-ratings span.notrated a,
+.rating .post-ratings .orhon-demon .ts-category .menu-item span.notrated a,
+.orhon-demon .ts-category .menu-item .rating .post-ratings .post-ratings-text a,
+.rating .post-ratings .orhon-demon .ts-category .menu-item .post-ratings-text a {
+    height: 100%;
+    white-space: normal;
+    line-height: 1.5;
+}
+
+.course-list > li {
+    width: 126px;
+    height: 350px;
+    margin-bottom: 25px;
+    /*margin-top:-20px;*/
+    display: block;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+
+.course-list > li .thumbnail {
+    background: #eaf1f4;
+    border-radius: 0px;
+    border: 1px solid #fff !important;
+    border-radius: 0px;
+    border: 0px;
+    padding: 0px;
+    height: 100%;
+    padding: 5px;
+    display: inline-block;
+    width: 100%;
+}
+
+.course-list > li .thumbnail a.tumblink {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    overflow: hidden;
+    float: left;
+}
+
+.course-list > li .thumbnail a.tumblink img {
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+}
+
+.course-list > li .thumbnail .caption {
+    color: #485662;
+    line-height: 30px;
+    padding: 0px;
+    height: calc( 100% - 100px);
+    float: left;
+    width: 100%;
+}
+
+.course-list > li .thumbnail .caption .dt-mr {
+    width: 100%;
+    min-height: 45px;
+    margin: 0px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(139, 171, 200, 0.23);
+    float: left;
+}
+
+.course-list > li .thumbnail .caption .dt-mr time {
+    font-family: 'georgia';
+    font-size: 0.8em;
+}
+
+.course-list > li .thumbnail .caption .dt-mr a {
+    float: none;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.course-list > li .thumbnail .caption .dt-mr .btn {
+    color: #fff;
+}
+
+.course-list > li .thumbnail .caption h3 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.course-list > li .thumbnail .caption .text {
+    width: 100%;
+    height: calc( 100% - 80px );
+    padding-top: 10px;
+    margin: 0px auto;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #839eb7;
+    overflow-x: auto;
+    float: left;
+}
+ul.course-list.orhon_mgl {
+    height: 500px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+ul.course-list.orhon_mgl > li{
+    height:100%;
+    margin-bottom: 0;
+    display: inline-block;
+}
+.course-list > li .thumbnail .caption .btn-primary {
+    color: #fff;
+    background-color: #8babc8;
+    border: 0px;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 0px;
+    padding: 0px 10px;
+}
+
+.course-list > li .thumbnail .caption .btn-primary:hover {
+    color: #fff;
+    background-color: #ffae00;
+    border-color: #ff9700;
+}
+
+.course-list > li .thumbnail img {
+    width: 100%;
+}
+
+.resouce_title {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.resouce_title span {
+    margin: 0 auto;
+    display: block;
+    max-height: 100px;
+    padding: 10px 0 0 0;
+    max-width: 100%;
+    overflow-x: auto;
+    color: #888888;
+    font-size: 20px;
+    color: #646d7b;
+}
+
+.html5_content_iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.container.bg-pd.news main.main-content .page-header {
+    height: 120px;
+    text-align: center;
+}
+
+.container.bg-pd.news main.main-content .page-header h2.edu-title {
+    text-align: center;
+    display: inline-block;
+    max-width: 100%;
+    font-size: 30px;
+    color: #337ab7;
+}
+
+.container.bg-pd.news main.main-content article.post.page {
+    width: 100%;
+}
+
+.container.bg-pd.news main.main-content article.post.page ul#crumbs {
+    height: 120px;
+    position: relative;
+}
+
+.container.bg-pd.news main.main-content article.post.page ul#crumbs li a {
+    padding-left: 10px;
+}
+
+.container.bg-pd.news main.main-content article.post.page ul#crumbs li a .glyphicon-home:before {
+    text-orientation: upright;
+}
+
+.container.bg-pd.news main.main-content article.post.page ul#crumbs.breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+    top: 42%;
+    position: absolute;
+}
+
+.container.bg-pd.news main.main-content article.post.page section.post-content {
+    overflow: hidden;
+    overflow-x: auto;
+    height: 80vh;
+    max-height: 700px;
+    min-height: 400px;
+    width: 100%;
+}
+
+.container.bg-pd.news main.main-content article.post.page section.post-content p {
+    text-indent: 25px;
+}
+
+.container.bg-pd.news main.main-content article.post.page section.post-content li.list-item {
+    padding: 10px 6px;
+}
+
+@media screen and (max-width: 1200px) {
+    .orhon-demon .header-bg {
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-xs {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .orhon-demon .navbar-default .navbar-nav li {
+        width: 30px;
+    }
+    .orhon-demon .navbar-default .navbar-nav li a {
+        width: 30px;
+        line-height: 30px;
+        height: 200px;
+    }
+    .orhon-demon .course-main .course-list li {
+        padding: 0px;
+    }
+    .orhon-demon .course-main .kc-category .kc-category-box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .links {
+        margin-left: 0px;
+    }
+    .links h2 {
+        margin: 0px auto;
+        line-height: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    section.plate.bg4 .row .col-md-11 {
+        padding: 0;
+    }
+    .z-header-bg .logo {
+        text-align: center;
+    }
+    .z-header-bg .logo img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .orhon-demon .features .ts-category li a,
+    .orhon-demon .features .zt-category li a,
+    .orhon-demon .thematic .ts-category li a,
+    .orhon-demon .thematic .zt-category li a {
+        line-height: 1.6em;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .col-md-5 {
+        width: 18%;
+        padding-left: 8px;
+        padding-right: 8px;
+        float: left;
+    }
+    .links {
+        margin-left: 0px;
+    }
+    .links h2 {
+        width: 50px;
+        height: 252px;
+        line-height: 46px;
+        margin: 0px;
+    }
+    .z-header-bg .logo {
+        text-align: left;
+    }
+    .z-header-bg .logo img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .mg-5f {
+        width: 20%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .orhon-demon .header-bg .logo {
+        margin: 10% auto;
+    }
+    .orhon-demon .navbar-default {
+        margin-top: 5%;
+        height: 120px;
+    }
+    .orhon-demon .navbar-default .navbar-nav {
+        display: block;
+        margin: 0px auto;
+        float: inherit;
+    }
+    .orhon-demon .navbar-default .navbar-nav li {
+        width: 20%;
+    }
+    .orhon-demon .navbar-default .navbar-nav li a {
+        height: 120px;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: left;
+    }
+    .orhon-demon .navbar-collapse.collapse {
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+        padding: 0px;
+    }
+    .orhon-demon .navbar-collapse.collapse .lb {
+        background: url(../img/nav-lbg.png) no-repeat left center;
+        padding-left: 20%;
+    }
+    .orhon-demon .navbar-collapse.collapse .rb {
+        background: url(../img/nav-rbg.png) no-repeat right center;
+        padding-right: 20%;
+    }
+    .orhon-demon .navbar-collapse.collapse .nav-bg {
+        width: 100%;
+        height: 120px;
+        background-size: auto 100%;
+    }
+    .orhon-demon .navbar-collapse.in {
+        overflow-y: visible;
+    }
+    .orhon-demon .navbar-toggle {
+        display: none;
+    }
+    .orhon-demon .navbar-header {
+        float: left;
+    }
+    .orhon-demon .nav_tda td a {
+        line-height: 2.2em;
+    }
+    .orhon-demon .ysyy {
+        margin-right: -5px;
+        margin-left: -5px;
+        margin-bottom: 40px;
+    }
+}
+
+.clearfix {
+    clear: both;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.r_t_top {
+    width: 50px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 999;
+    right: 0px;
+    height: 50px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.r_t_top a {
+    font-family: 'Glyphicons Halflings';
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    font-size: 20px;
+    height: 50px;
+    display: block;
+}
+
+.r_t_top a:hover {
+    text-decoration: none;
+    color: #f6eab9;
+}
+
+span.total {
+    float: right;
+    font-size: 51px;
+    font-family: Arial;
+    color: #f80;
+    padding: 3px;
+    font-weight: bold;
+    font-style: italic;
+    border: 3px solid;
+    border-radius: 19%;
+}
+
+.banquan {
+    padding: 15px 0px;
+}
+
+.orhon-demon footer {
+    width: 100%;
+    min-height: 126px;
+    background: #708da7;
+    color: #fff;
+}
+
+.orhonlms_copyright {
+    font-size: 14px;
+    min-height: 86px;
+    margin: 0 auto;
+}
+
+.orhonlms_copyright a {
+    color: #e8f2f4;
+}
+
+.orhonlms_copyright p {
+    color: #d9e7f4;
+    text-align: center;
+    margin: 4px 0 0 0;
+}
+
+.row.top-menu-header {
+    height: 200px;
+}
+
+.row.top-menu-header .kjtd {
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+}
+
+.row.top-menu-header div#clock_weather {
+    width: 200px;
+    float: left;
+    height: 174px;
+    background: url(../img/tianqiyubao-bg.png) no-repeat 100% 100%;
+}
+
+.row.top-menu-header div#degree_weather {
+    height: 100px;
+}
+
+.row.top-menu-header div#degree_weather div#degree {
+    width: 120px;
+    float: left;
+    padding: 4px 25px;
+    font-size: 24px;
+    color: white;
+}
+
+.row.top-menu-header div#degree_weather div#weather {
+    width: 70px;
+    float: right;
+    padding: 14px;
+}
+
+.row.top-menu-header div#riqi {
+    width: 100%;
+    padding: 11px 10px 10px 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.banquan {
+    padding: 15px 0px;
+}
+
+.orhon-demon footer {
+    width: 100%;
+    min-height: 126px;
+    background: #708da7;
+    color: #fff;
+}
+
+.orhonlms_copyright {
+    font-size: 14px;
+    min-height: 86px;
+    margin: 0 auto;
+    font-family: "Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, WenQuanYi Micro Hei, Verdana, Aril, sans-serif;
+}
+
+.orhonlms_copyright a {
+    color: #e8f2f4;
+}
+
+.orhonlms_copyright p {
+    color: #d9e7f4;
+    text-align: center;
+    margin: 4px 0 0 0;
+}
+
+.s-header-bg {
+    background: url(../img/banner-bg.jpg) no-repeat center top;
+    background-size: auto 100%;
+}
+
+.s-header-bg .logo {
+    width: 55%;
+    margin: 8% auto;
+    text-align: center;
+}
+
+.s-header-bg .logo img {
+    width: 100%;
+    height: auto;
+}
+
+.kjtd {
+    display: block;
+    float: left;
+}
+
+.kjtd li {
+    float: left;
+}
+
+.kjtd li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .s-header-bg .logo {
+        width: 90%;
+    }
+    .kjtd {
+        width: 100%;
+        margin: 0px auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: block;
+    }
+    .kjtd li {
+        height: 108px;
+        float: left;
+        padding: 0px 10px;
+    }
+    .kjtd li a {
+        width: 32px;
+        height: 100px;
+        display: block;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .s-header-bg .logo {
+        width: 55%;
+    }
+    .kjtd {
+        display: block;
+        float: left;
+        min-height: 80px;
+        margin-bottom: 30px;
+    }
+    .kjtd li {
+        width: 96px;
+        height: 150px;
+        float: left;
+        border-left: 1px solid #fff;
+        border-right: 1px solid #d6e4ea;
+    }
+    .kjtd li a {
+        display: block;
+        width: 42px;
+        height: 140px;
+        margin: 0px auto;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.searchbox div#inner-editor,
+.searchbox div#placeholder {
+    display: table-cell !important;
+}
+
+form#loginform input {
+    display: table-cell;
+    width: 40px;
+    padding: 10px 5px;
+}
+
+.resetpasswd a {
+    background: #107edf;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin: 40px 10px;
+    padding: 15px 1px;
+}
+
+.searchbox form,
+.login-submit .button-primary,
+div#inner-editor,
+input#captcha_code_side_login,
+input#user_login,
+input#user_pass {
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -o-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    -moz-writing-mode: vertical-lr;
+    font-family: "OrhonChaganTig";
+    unicode-bidi: embed;
+    text-orientation: sideways-right;
+    -webkit-text-orientation: sideways-right;
+    -mz-text-orientation: sideways-right;
+    -o-text-orientation: sideways-right;
+    -ms-text-orientation: sideways-right;
+    word-spacing: normal;
+    word-wrap: normal;
+    word-break: keep-all;
+    text-align: left;
+}
+
+header.entry-header.post-head.orhon_mgl,
+.orhon-demon .thematic header.entry-header.post-head.mongolian_culture_sub_category,
+.orhon-demon header.entry-header.post-head.links,
+.orhon-demon .resource-search header.entry-header.post-head.search,
+.orhon-demon .resource-search .search header.entry-header.post-head.search-field,
+.orhon-demon header.entry-header.post-head.top-navbar,
+header.entry-header.post-head.searchbox,
+header.entry-header.post-head.kc-category,
+header.entry-header.post-head.single_breadcrumbs,
+.toggle_menu_item header.entry-header.post-head.show_item,
+header.entry-header.post-head.list-group.atachment_list,
+.activity_container section.activity_info .activity_infomatiuons header.entry-header.post-head.infolist,
+.activity_container section.activity_description header.entry-header.post-head.description_header,
+.developing .post-content header.entry-header.post-head.entry-content,
+.rating .post-ratings header.entry-header.post-head.post-ratings-text {
+    width: 100%;
+}
+
+header.entry-header.post-head.orhon_mgl h1.post-title,
+.orhon-demon .thematic header.entry-header.post-head.mongolian_culture_sub_category h1.post-title,
+.orhon-demon header.entry-header.post-head.links h1.post-title,
+.orhon-demon .resource-search header.entry-header.post-head.search h1.post-title,
+.orhon-demon .resource-search .search header.entry-header.post-head.search-field h1.post-title,
+.orhon-demon header.entry-header.post-head.top-navbar h1.post-title,
+header.entry-header.post-head.searchbox h1.post-title,
+header.entry-header.post-head.kc-category h1.post-title,
+header.entry-header.post-head.single_breadcrumbs h1.post-title,
+.toggle_menu_item header.entry-header.post-head.show_item h1.post-title,
+header.entry-header.post-head.list-group.atachment_list h1.post-title,
+.activity_container section.activity_info .activity_infomatiuons header.entry-header.post-head.infolist h1.post-title,
+.activity_container section.activity_description header.entry-header.post-head.description_header h1.post-title,
+.developing .post-content header.entry-header.post-head.entry-content h1.post-title,
+.rating .post-ratings header.entry-header.post-head.post-ratings-text h1.post-title {
+    height: 100px;
+    width: 100%;
+    font-size: 22px;
+}
+
+.published-time {
+    padding: 5px 20px;
+}
+
+.bg0 {
+    background: url(../img/body-bgl.png) no-repeat left top;
+    background-size: 15% auto;
+}
+
+.kjtd li a img {
+    width: auto;
+    height: 100%;
+}
+
+.header-hidden-container {
+    display: none;
+}
+
+button#header_toggle {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    background: #057ccf;
+    color: white;
+}
+
+.header-toggle-btn.show {
+    height: 50px;
+    background: url(../img/banner-bg.jpg) no-repeat center bottom;
+    background-size: 100% auto;
+}
+
+.single_breadcrumbs {
+    position: fixed;
+    left: 0;
+    top: 50px;
+    bottom: 50px;
+    padding: 10px;
+    background: rgba(51, 122, 183, 0.8);
+    color: #fff;
+    z-index: 1000;
+    border-radius: 0 5px 5px 0;
+    padding-top: 40px;
+}
+
+.single_breadcrumbs button#toggle_breadcream {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #d4e605;
+    color: #5c95c5;
+    border-radius: 0 5px 0 0;
+}
+
+.single_breadcrumbs #show_breadcreamb {
+    display: none;
+}
+
+.single_breadcrumbs.collapsed {
+    padding: 0;
+}
+
+.single_breadcrumbs.collapsed #show_breadcreamb {
+    display: block;
+    background: none;
+    height: 100%;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.single_breadcrumbs.collapsed button#toggle_breadcream,
+.single_breadcrumbs.collapsed .breadcrumbs {
+    display: none;
+}
+
+.single_breadcrumbs .breadcrumbs span {
+    text-shadow: 1px 1px 1px #0385f5;
+    color: white;
+}
+
+.single_breadcrumbs .breadcrumbs span a {
+    color: white;
+}
+
+.single_breadcrumbs .breadcrumbs span a span.glyphicon.glyphicon-home {
+    writing-mode: horizontal-tb;
+    padding-bottom: 10px;
+    margin-left: -2px;
+}
+
+span.glyphicon {
+    writing-mode: horizontal-tb;
+    -ms-writing-mode: lr-tb;
+    -webkit-writing-mode: horizontal-tb;
+}
+
+.toggle_menu_item {
+    position: relative;
+}
+
+.toggle_menu_item .show_item,
+.toggle_menu_item .hide_item {
+    position: absolute;
+    left: -28px;
+    background: #8cd340;
+    height: 100px;
+    padding: 2px;
+    border-radius: 3px;
+    width: 29px;
+    margin: 0;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.toggle_menu_item .show_item#toggle_grade,
+.toggle_menu_item .hide_item#toggle_grade {
+    color: white;
+}
+
+.toggle_menu_item .show_item#toggle_course_catalog,
+.toggle_menu_item .hide_item#toggle_course_catalog {
+    height: 100px;
+    background: #eeaa60;
+    color: white;
+}
+
+.toggle_menu_item .show_item#toggle_book_catalogue,
+.toggle_menu_item .hide_item#toggle_book_catalogue {
+    height: 100px;
+    background: #5c95c5;
+    color: white;
+}
+
+ul#menu-course_resources.hide_grade,
+#course_catalog.hide_grade,
+#book_catalogue.hide_grade,
+#menu-special-subject.hide_grade,
+#menu-characteristic_mongolian_culture.hide_grade {
+    height: 100px;
+    min-height: 80px;
+}
+
+ul#menu-course_resources.hide_grade > li.menu-item,
+#menu-course_resources.hide_grade>ul
+ul#menu-course_resources.hide_grade > div,
+#course_catalog.hide_grade > li.menu-item,
+#course_catalog.hide_grade > div,
+#book_catalogue.hide_grade > li.menu-item,
+#book_catalogue.hide_grade > div,
+#menu-special-subject.hide_grade > li.menu-item,
+#menu-special-subject.hide_grade > div,
+#menu-characteristic_mongolian_culture.hide_grade > li.menu-item,
+#menu-characteristic_mongolian_culture.hide_grade > div {
+    display: none;
+}
+
+.orhon-demon .course-main .kc-category#book_catalogue .mlxz {
+    background: #5c95c5 url(../img/fl-bg.png) no-repeat center top;
+}
+
+.list-group.atachment_list {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.list-group.atachment_list li.list-group-item span.icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.list-group.atachment_list li.list-group-item span.icon img {
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+}
+
+.list-group.atachment_list li.list-group-item span.title {
+    max-height: calc( 100% - 100px);
+    overflow-y: hidden;
+    display: inline-block;
+}
+
+span.activity_name {
+    color: #057ccf;
+    font-family: OrhonGarchagTig;
+    font-size: 20px;
+    padding: 0px 20px;
+    line-height: 1.8;
+}
+
+.activity_container section {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+
+.activity_container section.activity_info {
+    height: 260px;
+    position: relative;
+}
+
+.activity_container section.activity_info .thumb_container {
+    width: 300px;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.activity_container section.activity_info .thumb_container img {
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.activity_container section.activity_info .thumb_container span.join_to_activity {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: auto;
+    font-size: 20px;
+    background: green;
+    color: white;
+    padding-left: 2px;
+    cursor: pointer;
+    padding: 6px 3px;
+    opacity: 0.92;
+}
+
+.activity_container section.activity_info .thumb_container span.join_to_activity a {
+    background: green;
+    color: white;
+}
+
+.activity_container section.activity_info .thumb_container span.join_to_activity#join_to_activity {
+    background: #F80;
+    color: white;
+}
+
+.activity_container section.activity_info .thumb_container span.nostart_to_activity#nostart_to_activity {
+    background: #F80;
+    color: white;
+}
+
+.activity_container section.activity_info .thumb_container span.end_to_activity#end_to_activity {
+    background: #F80;
+    color: white;
+}
+
+.activity_container section.activity_info  span.join_to_activity {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: auto;
+    font-size: 20px;
+    background: green;
+    color: white;
+    padding-left: 2px;
+    cursor: pointer;
+    padding: 6px 3px;
+    opacity: 0.92;
+}
+.activity_container section.activity_info  span.join_to_activity a {
+    background: green;
+    color: white;
+}
+
+.activity_container section.activity_info  span.join_to_activity#join_to_activity {
+    background: #F80;
+    color: white;
+}
+
+.activity_container section.activity_info  span.nostart_to_activity#nostart_to_activity {
+    background: #F80;
+    color: white;
+}
+
+.activity_container section.activity_info  span.end_to_activity#end_to_activity {
+    background: #F80;
+    color: white;
+}
+
+.activity_container section.activity_info .activity_infomatiuons {
+    width: calc( 100% - 300px);
+    float: left;
+    height: 100%;
+}
+
+.activity_container section.activity_info .activity_infomatiuons .infolist {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+}
+
+.activity_container section.activity_info .activity_infomatiuons .infolist li.info {
+    padding: 6px 10px;
+    border-left: 1px solid #ddd;
+}
+
+.activity_container section.activity_info .activity_infomatiuons .infolist li.info > span {
+    padding: .6em 0.5em .3em;
+}
+
+.activity_container section.activity_info .activity_infomatiuons .infolist li.info span.label.label-info {
+    height: 150px;
+    display: inline-block;
+    text-align: left;
+}
+
+.activity_container section.activity_info .activity_infomatiuons .infolist li.info span.label_content.data,
+.activity_container section.activity_info .activity_infomatiuons .infolist li.info span.label_content.pingshenzhuanjia {
+    height: 100%;
+    display: inline-block;
+}
+
+.activity_container section.activity_info .activity_infomatiuons .infolist li.info span.label_content .pingshen {
+    padding: 6px 3px;
+    background: #3f7eb3;
+    margin: 3px;
+    float: left;
+    color: white;
+    border-radius: 8px;
+}
+
+.activity_container section.activity_description {
+    max-height: 400px;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.activity_container section.activity_description .description_header {
+    width: 74px;
+    float: left;
+    height: 100%;
+    font-size: 25px;
+    padding: 22px;
+}
+
+.activity_container section.activity_description .description {
+    max-height: 400px;
+    border: none;
+    min-height: 200px;
+    width: calc( 100% - 180px);
+    overflow-x: auto;
+}
+.activity_container section.activity_description span.btn.activaty_go_links a {
+    font-size: 30px;
+    white-space: normal;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    padding: 20px 15px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.activity_container section.res_list_section {
+    height: 600px;
+}
+
+.activity_container section.res_list_section .resourcelist {
+    height: 100%;
+    width: 100%;
+}
+
+.activity_container section.res_list_section .resourcelist ul.activity_res_list {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.activity_container section.res_list_section .resourcelist ul.activity_res_list li.list {
+    height: 100%;
+    padding: 10px 3px;
+    border-right: 1px solid #ddd;
+}
+
+.activity_container section.res_list_section .resourcelist ul.activity_res_list li.list a {
+    height: calc( 100% - 65px);
+    display: inline-block;
+    overflow-wrap: normal;
+}
+
+.activity_container section.res_list_section .resourcelist ul.activity_res_list li.list time {
+    float: right;
+    height: 65px;
+}
+
+.activity_container section.res_list_section .resourcelist ul.activity_res_list li.list:nth-child(even) {
+    background: #eee;
+}
+
+.activity_container section.res_list_section .resourcelist ul.activity_res_list li.list:hover {
+    background: #5c95c5;
+    color: white;
+}
+
+.activity_container section.res_list_section .resourcelist ul.activity_res_list li.list:hover a {
+    color: white;
+    text-decoration: none;
+}
+
+.activity_container .res_list_section_title {
+    height: 97px;
+}
+
+.activity_container .res_list_section_title .glyphicon-play {
+    top: -34px;
+}
+
+.label {
+    font-size: 16px;
+    padding: .6em 0.5em .3em;
+}
+
+div.alertFramclass {
+    text-orientation: sideways;
+    width: 200px !important;
+    height: 300px !important;
+    margin: -150px -100px !important;
+}
+
+div.alertFramclass ul li.title {
+    width: 30px;
+    height: 100% !important;
+    background: #337ab7 !important;
+    color: white !important;
+    line-height: .2 !important;
+    text-align: center !important;
+    padding: 11px !important;
+    border: none !important;
+}
+
+div.alertFramclass ul li.content {
+    width: calc( 100% - 60px) !important;
+    height: 100% !important;
+    padding: 5px;
+    line-height: 1.2 !important;
+    border: 1px solid #ddd !important;
+    overflow-x: auto;
+}
+
+div.alertFramclass ul li.content span.error {
+    color: red;
+}
+
+div.alertFramclass ul li.content span.error a {
+    color: red;
+}
+
+div.alertFramclass ul li.content span.success {
+    color: green;
+}
+
+div.alertFramclass ul li.content span.success a {
+    color: green;
+}
+
+div.alertFramclass ul li.okbtn {
+    height: 100% !important;
+    border: none !important;
+    padding: 0 !important;
+    width: 30px !important;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+div.alertFramclass ul li.okbtn span {
+    height: 100%;
+}
+
+.activity_list .thumbnail {
+    position: relative;
+}
+
+.activity_list .thumbnail h3.title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: auto;
+    padding: 5px;
+    font-size: 20px;
+    bottom: 0;
+    box-sizing: border-box;
+    margin: 0;
+    background: rgba(51, 122, 183, 0.87);
+    color: white;
+    border: none;
+}
+
+.activity_list .thumbnail span.usercount {
+    padding: 5px 10px;
+    position: absolute;
+    background: rgba(212, 230, 5, 0.91);
+    color: #5c95c5;
+    border-radius: 2px;
+    top: 0;
+    left: 0;
+}
+
+.activity_list .thumbnail span.start_time {
+    color: green;
+}
+
+.activity_list .thumbnail span.start_end {
+    color: red;
+}
+
+.activity_list .thumbnail .caption {
+    text-align: center;
+}
+
+.activity_list .pagination > li > a.current {
+    color: #f80;
+}
+
+.activity li.presentation {
+    height: 90px;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-left: 0;
+    background: #337ab7;
+    color: white;
+    text-align: center;
+    width: 100px;
+}
+
+.activity li.presentation:hover {
+    background: #f80;
+}
+
+.activity li.presentation span {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.activity li.presentation span a {
+    color: white;
+    font-family: OrhonGarchagTig;
+    font-size: 20px;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.activity li.presentation.active {
+    background: #f80;
+}
+
+.activity_page .page-title h2 {
+    height: 120px;
+}
+
+.jconfirm .jconfirm-box {
+    font-family: OrhonChaganTig-H;
+}
+
+.developing .post-content .entry-content {
+    margin: 0 auto;
+}
+
+div#comments {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+}
+
+div#comments .comments_block {
+    height: 500px;
+    width: 100%;
+    border-top: 1px dashed #ccc;
+    margin-top: 10px;
+    overflow-x: auto;
+}
+
+div#comments .comments_block:first-child {
+    border-top: none;
+}
+
+div#comments .comments_block h2.comments-title {
+    margin: 10px 10px;
+    color: #5c95c5;
+    font-family: OrhonGarchagTig;
+}
+
+div#comments .comments_block ol.comment-list {
+    border-left: 1px solid #ddd;
+    height: 100%;
+    display: inline-block;
+    padding: 10px;
+}
+
+div#comments .comments_block ol.comment-list li.comment {
+    padding: 10px 8px 0;
+}
+
+div#comments .comments_block ol.comment-list li.comment footer.comment-meta {
+    background: none;
+    color: #5c95c5;
+    text-align: left;
+}
+
+div#comments .comments_block ol.comment-list li.comment footer.comment-meta .comment-author img.photo {
+    width: 32px;
+    max-height: 50px;
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 1px;
+}
+
+div#comments .comments_block ol.comment-list li.comment footer.comment-meta .comment-author cite.fn {
+    padding: 10px 5px;
+    background: #5c95c5;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+div#comments .comments_block ol.comment-list li.comment footer.comment-meta .comment-author span.says {
+    padding: 5px;
+}
+
+div#comments .comments_block ol.comment-list li.comment footer.comment-meta .comment-metadata {
+    border-right: 1px solid #ddd;
+    text-align: right;
+}
+
+div#comments .comments_block ol.comment-list li.comment footer.comment-meta .comment-metadata span.edit-link a {
+    color: #5c95c5;
+}
+
+div#comments .comments_block ol.comment-list li.comment ol.children {
+    margin: 30px 0px 0;
+    box-shadow: 0px -1px #ddd;
+}
+
+div#comments .comments_block ol.comment-list li.comment .comment-content {
+    padding: 10px;
+    text-indent: 15px;
+}
+
+div#comments .comments_block ol.comment-list li.comment .reply {
+    height: 100%;
+    border-right: 1px dashed #ccc;
+    padding-right: 14px;
+    text-align: right;
+}
+
+div#comments .comments_block ol.comment-list li.comment .reply a.comment-reply-link {
+    background: #5c95c5;
+    color: white;
+    padding: 30px 6px;
+    border-radius: 2px;
+}
+
+div#comments .comments_block ol.comment-list li.comment .reply a.comment-reply-link:hover {
+    color: #f80;
+}
+
+div#comments .comments_block div#respond {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+div#comments .comments_block div#respond h2#reply-title {
+    margin: 10px 10px;
+    color: #5c95c5;
+    font-family: OrhonGarchagTig;
+}
+
+div#comments .comments_block div#respond .must-log-in {
+    padding: 20px 5px;
+    font-size: 18px;
+}
+
+div#comments .comments_block div#respond .must-log-in a.login_link {
+    background: #5c95c5;
+    color: white;
+    padding: 8px 6px;
+    border-radius: 5px;
+}
+
+div#comments .comments_block div#respond #commentform {
+    border-left: 1px solid #ddd;
+    height: 100%;
+    display: inline-block;
+    padding: 10px;
+}
+
+div#comments .comments_block div#respond #commentform p.logged-in-as {
+    padding: 20px 5px;
+    font-size: 18px;
+}
+
+div#comments .comments_block div#respond #commentform p.logged-in-as a {
+    background: #5c95c5;
+    color: white;
+    padding: 8px 6px;
+    border-radius: 5px;
+}
+
+div#comments .comments_block div#respond #commentform p.comment-form-comment {
+    height: 100%;
+    padding: 10px;
+}
+
+div#comments .comments_block div#respond #commentform p.comment-form-comment label {
+    height: 100%;
+    font-size: 20px;
+}
+
+div#comments .comments_block div#respond #commentform p.comment-form-comment textarea#comment {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+div#comments .comments_block div#respond #commentform .form-submit {
+    padding: 10px 0;
+}
+
+div#comments .comments_block div#respond #commentform .form-submit #submit {
+    color: #fff;
+    background-color: #5c95c5;
+    border-color: #5c95c5;
+    height: 130px;
+    font-size: 24px;
+    padding: 0px;
+    display: table-cell;
+    border: none;
+    border-radius: 5px;
+}
+
+div#comments .comments_block div#respond #commentform .form-submit #submit:hover {
+    background: #f80;
+}
+
+.orhon-demon .comments_block_area {
+    height: auto;
+    max-height: none;
+    overflow: hidden;
+}
+
+.rating {
+    padding: 10px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.rating .post-ratings img {
+    height: 20px;
+    width: auto;
+}
+
+.rating .post-ratings span.notrated {
+    height: 50px;
+    display: inline-block;
+}
+
+a.download {
+    float: right;
+}
+.menu-course_resources li.menu-item{
+    margin: 0px;
+    height: 100%;
+    width: 62px;
+    float: left;
+    border: none;
+}
+.menu-course_resources > li.menu-item.active{
+    width: calc( 100% - 186px );
+    display: inline-block;
+}
+.menu-course_resources li.menu-item> span.orhon_mgl{
+    /*width: 100%;*/
+    min-height: 240px;
+    line-height: 1.2;
+    margin: 0;
+    margin-left: 0;
+    float: left;
+    display: inline-block;
+    font-size: 23px;
+    text-align: left;
+    padding: 44px 18px 0;
+}
+.menu-course_resources li#xueqian> span.orhon_mgl{
+/*    padding-left: 6px;*/
+}
+#menu-course_resources #school_type_ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#menu-course_resources .course_resources_menu_items{
+    width: calc( 100% - 62px );
+    display: none;
+    overflow-x: auto;
+    font-size: 20px;
+}
+#menu-course_resources .course_resources_menu_items li a {
+    color: #839eb7;
+    font-size: 20px;
+}
+.course_resources_menu_items li{
+    padding: 10px 5px;
+}
+#menu-course_resources .course_resources_menu_items .menu-item.active a,
+#menu-course_resources .course_resources_menu_items .menu-item:hover a{
+    color: #f80;
+}
+#menu-course_resources {
+    display: inline-block;
+    width: 100%;
+    min-height: 90px;
+    margin: 0px auto;
+    background: #f5f6f7 url(../img/bhw.jpg) no-repeat right bottom;
+    height: 300px;
+}
+.orhon-demon .course-main  div#textbooks{
+    width: 300px;
+}
+.orhon-demon .course-main div#textbookscatelog {
+    width: calc( 100% - 300px );
+}
+.orhon-demon .course-main div#textbooks .ml-category-list,
+.orhon-demon .course-main div#textbookscatelog .ml-category-list {
+    width: calc( 100% - 62px );
+    height: 100%;
+    padding: 10px 5px;
+}
+.course-main .kc-category .ml-category-box .ml-category-list ul li.hiqiyel_item.active a{
+    color: #f80;
+}
+.features .nav.nav-tabs li a{
+    color: #839eb7;
+}
+.resource_info {
+    width: 100%;
+    overflow-x: auto;
+    border-bottom: 1px solid #ddd;
+    padding: 0 10px;
+    max-height: 520px;
+    min-height: 300px;
+}
+.resource_info .form-group{
+    padding: 20px 9px 10px 0;
+    border-right: 1px solid #eee;
+    margin-bottom: 0;
+}
+.resource_info .form-group .form-control{
+    height: 100%;
+    padding: 10px 6px;
+}
+.resource_info .form-group .control-label{
+    height: 100%;
+    padding: 0 6px;
+}
+li.upload-kit-item.done {
+    height: 150px;
+    width: 150px;
+}
+.upload-kit .upload-kit-item .remove{
+    font-size: 2.2em;
+}
+
+.orhon-demon .detail-main ul.vjs-menu-content{
+    padding: 0;
+}
+.orhon-demon .detail-main .vjs-menu li{
+    list-style: none;
+    margin: 0;
+    padding: 0.2em 0;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: lowercase;
+    margin-top: 0;
+}
+.res_name_title {
+    position: absolute;
+    left: 0;
+    z-index: 1000;
+    writing-mode: vertical-lr;
+    color: #ffd100;    
+    background: rgba(255, 255, 255, 0.58);
+    height: calc( 100% - 30px );
+    height: -moz-calc( 100% - 30px );
+    height: -webkit-calc( 100% - 30px );
+    padding: 15px;
+}
+.res_name_title{
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -o-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    -moz-writing-mode: vertical-lr;
+    font-family: "OrhonChaganTig";
+    unicode-bidi: embed;
+    text-orientation: sideways-right;
+    -webkit-text-orientation: sideways-right;
+    -mz-text-orientation: sideways-right;
+    -o-text-orientation: sideways-right;
+    -ms-text-orientation: sideways-right;
+    word-spacing: normal;
+    word-wrap: normal;
+    word-break: keep-all;
+}
+.detail-main .tools {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+    background: rgba(92, 149, 197, 0.8);
+    padding: 6px 10px;
+    border-radius: 2px;
+}
+.detail-main .tools span.glyphicon{
+  color: #fff;
+  cursor: pointer;
+}
+.detail-main .tools span.color{
+    color: #ff8800;
+    cursor: pointer;
+}
+.detail-main .tools a{
+    margin: 0 6px;
+}
+.res_info_box {
+    display: inline-block;
+    width: 100%;
+}
+.resouce_play.detail-main.others {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    background: url("../img/other_attechment.png");
+    background-size: 80% auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.header_user_center {
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+    padding: 5px 30px;
+}
+.logoutbtn.btn {
+    width: 30px;
+    height: 30px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #f80;
+    right: 26px;
+    padding: 0px;
+    margin: 0;
+    background: none;
+}
+.logoutbtn.btn:hover span.glyphicon {
+    color: #3f9e9e;
+}
+.logoutbtn.btn span.glyphicon {
+    color: #f80;
+    font-size: 20px;
+}
+.news-list .list_deail{
+    height: 80vh;
+    min-height: 600px;
+    max-height: 800px;
+    width: 100%;
+    overflow-x: auto;
+}
+.news-list .list_deail header.title {
+    height: 100%;
+    padding: 20px 10px;
+    font-size: 20px;
+    color: #333;
+    background: aliceblue;
+    box-shadow: 1px 1px 1px #eee;
+}
+.conten-section{
+    margin-top: 20px;
+    position: relative;
+    background: #fff;
+    border: 2px solid #0089be;
+    min-height: 600px;
+}
+
+.block_title {
+    position: absolute;
+    /*width: 40px;*/
+    /*line-height: 20px;*/
+    /*left: -40px;*/
+    right: 100%;
+    padding: 20px 10px;
+    background: #0089be;
+    color: white;
+    font-size: 22px;
+    top: -2px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.detail_nr {
+    padding: 20px;
+}
+.detail_nr p{
+    text-indent: 20px;
+}
+.detail_nr p img{
+    max-height: 100%;
+}
+.chatpage .table > thead > tr {
+    border: 1px solid #bdd5e6;
+}
+
+.chatpage .table > thead > tr > th {
+    border: 1px solid #bdd5e6;
+    text-align: center;
+}
+
+.chatpage .table > tbody > tr > td {
+    border: 1px solid #bdd5e6;
+    text-align: center;
+    background: #fff;
+}
+
+.chatpage input#rname {
+    margin-left: -1px;
+}
+
+.chatpage input[type=text],
+.chatpage textarea {
+    font-family: 'OrhonChaganTig';
+}
+.chatpage textarea#chat-content,.chatpage textarea#content {
+    display: table-cell;
+    width: 300px;
+}
+.chatpage .panel.panel-default.resadminpanel {
+    position: relative;
+    margin: 20px 0;
+}
+.chatpage .thumbnailsimg {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+}
+.chatpage .thumbnailsimg img{
+    vertical-align: top;
+}
+.chatpage .col-md-3.re_item {
+    margin-left: 10px;
+    height: 500px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    padding: 20px 20px;
+    width: auto;
+}
+.chatpage .thumbnails {
+    height: 100%;
+    display: inline-block;
+}
+.chatpage .comment_content {
+    height: calc( 100% - 72px );
+    float: left;
+}
+.chatpage .usermeta.orhon_mgl {
+    white-space: normal;
+    word-wrap: normal;
+    word-break: normal;
+    font-size: 18px;
+    color: #0089be;
+}
+.chatpage .usermeta span.time {
+    font-size: 16px;
+    color: #757373;
+}
+.chatpage .usermeta  span.username {
+    color: #484848;
+    font-size: 14px;
+}
+.chatpage .list{
+    width: 100%;
+    overflow-x: auto;
+    height: 500px;
+}
+.chatpage .panel-body{
+    width: 100%;
+    overflow-x: auto;
+}
+form#commentform {
+    height: 400px;
+}
+form#commentform label, form#commentform textarea {
+    height: 100%;
+}
+.orhon-demon  ul.nav.nav-tabs.teaching_type {
+    height: 150px;
+    width: 100%;
+    overflow-x: auto;
+}
+.orhon-demon ul.nav.nav-tabs.teaching_type > li {
+    width: auto;
+    height: auto;
+    padding: 0;
+    text-align: left;
+    margin-left: 0;
+}
+.orhon-demon ul.nav.nav-tabs.teaching_type > li a {
+    color: #839eb7;
+    text-align: left;
+/*    padding: 12px 7px;*/
+    border: 1px solid #839eb7;
+    background-color: #edf8ff;
+}
+.orhon-demon .detail-main.image_text_content{
+    padding: 10px;
+}
+.orhon-demon .detail-main.image_text_content h2{
+    font-size: 22px;
+}
+.orhon-demon .detail-main.image_text_content ul li{
+    list-style: none;
+    font-size: 18px;
+}
+.chatpage a.delete {
+    color: #840606;
+    cursor: pointer;
+}
+.resadminpanel .row table.table{
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -o-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    -moz-writing-mode: vertical-lr;
+    font-family: "OrhonChaganTig";
+    unicode-bidi: embed;
+    text-orientation: sideways-right;
+    -webkit-text-orientation: sideways-right;
+    -mz-text-orientation: sideways-right;
+    -o-text-orientation: sideways-right;
+    -ms-text-orientation: sideways-right;
+    word-spacing: normal;
+    word-wrap: normal;
+    word-break: keep-all;
+    text-align: left;
+}
+.resadminpanel .row table.table span.orhon_mgl a img{
+    height: 100px;
+    width: 100px;
+}
+.panel.panel-default.resadminpanel .page-title-bg{
+/*    width: calc(100% - 170px);*/
+}
+.panel.panel-default.resadminpanel .more {
+    display: none;
+}
+.member-form button.btn.btn-success,textarea#chat-content,textarea#memberprofile-remarks,label.control-label {
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -o-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    -moz-writing-mode: vertical-lr;
+    font-family: 'OrhonChaganTig';
+    unicode-bidi: embed;
+    text-orientation: sideways-right;
+    -webkit-text-orientation: sideways-right;
+    -mz-text-orientation: sideways-right;
+    -o-text-orientation: sideways-right;
+    -ms-text-orientation: sideways-right;
+    word-spacing: normal;
+    word-wrap: normal;
+    word-break: keep-all;
+    text-align: left;    
+}
+.resource_info .field-chat-content {
+    width: 350px;
+}
+.news-list .caption {
+    height: 100%;
+}
+.resadminpanel .page-title {
+    margin-top: 30px;
+    background: url(../img/page-title.png) repeat-x center center;
+    height: 110px;
+}
+.list .ict_title {
+    height: 80%;
+}
+.panel-heading.title a.score_number_link{
+    border-bottom: 1px solid white;
+    padding: 10px 0 10px;
+    display: inline-block;
+}
+.panel-heading.title a.score_number_link:last-child {
+    border-bottom: none;
+}
+.img{
+    background: url(../img/youke.png) repeat-x center center;
+}
+header.title.block_title.subject {
+    top: 220px;
+}
+.panel-default .panel-heading .breadcrumb a.active{
+    background: #f80;
+}

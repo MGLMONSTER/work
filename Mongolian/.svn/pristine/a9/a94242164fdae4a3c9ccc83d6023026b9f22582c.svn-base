@@ -1,0 +1,87 @@
+
+.app-table, .pagination-container,.jdtitle,.rightBar,.main_body,.tab-user p ,
+.pagination-container,.filter-input, .filter-input span,
+.pagination-container,.filter-input input,.tab-user p span{
+  font-size:1em;
+  font-family: 'OrhonChaganTig';
+  writing-mode: vertical-lr;
+  //-webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: tb-lr;
+  //-o-writing-mode: vertical-lr;
+  //-moz-writing-mode: vertical-lr;
+  //text-orientation: sideways;
+  //unicode-bidi:embed;word-spacing:normal;
+  //word-wrap:normal;word-break:keep-all;
+}
+.filter-container{
+  float: left;
+  margin-right: 10px;
+}
+.filter-input .input-span,.filters-input .input-span{
+  margin-right: 10px;
+  display: block;
+}
+.left-bar{
+  display:block;
+  width: 58px;
+  padding-top:5px;
+  margin:0 10px;
+  position: relative;
+  top:30px;
+  left:-10px;
+  background:#f5f7fa;
+  height:100%;
+  overflow-y:auto;
+  overflow-x:hidden;
+
+}
+
+.leftfa-bar{
+  display:block;
+  position: fixed;
+  top:50px;
+  left:82px;
+  width:42px;
+  height:90%;
+  overflow:hidden;
+}
+.tab-div{
+  // margin-left:35px;
+  float:left;
+  width:100%;
+  height:100%;
+  overflow-x:auto;
+}
+.tab-noleft{
+  margin-left:-10px;
+  width:100%;
+  height:100%;
+  overflow-x:auto;
+}
+.appmain-right{
+  // margin-top:10px;
+  //margin-left: 60px;
+  width:auto;
+}
+.filter-container {
+  margin-right:20px;
+  .filter-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:7px;
+  }
+}
+.jdtitle{
+  margin-left: 20px;
+  //border:1px solid red;
+  display: block;
+  text-align: left;
+  font-size:17px;
+  font-weight: 700;
+  color: #000;
+}
+.app-table{margin-left:5px;margin-top:15px;width:auto; padding:20px;border:1px solid #f5f7fa; height:90%;
+}
+.tab-user {
+  width: 100%;
+}

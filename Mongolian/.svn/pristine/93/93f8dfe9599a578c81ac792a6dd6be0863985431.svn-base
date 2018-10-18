@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="renderer" content="webkit">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="http://ime.orhonit.org/orhonjsime2/css/style.css" type="text/css" />
+    <script type='text/javascript' src='http://ime.orhonit.org/orhonjsime2/js/orhonjsime.js'></script>
+    <script>
+      orhonIMEinit = {
+        element: "",
+        ele_except: "",
+        editor: {
+          IME_Mount: true,
+          tinymce: "",
+          ueditor: "",
+        },
+        IME_cssurl: "",
+        IME_theme: "",
+        Output_Unicode: true,
+      };
+      Iframe_init = {
+        iframes: "",
+        ifr_except: "",
+        element: "",
+        ele_except: "",
+      };
+    </script>
+		<title>鄂尔多斯智慧党建平台</title>
+	</head>
+	<script src=<%= htmlWebpackPlugin.options.path %>/tinymce4.7.5/tinymce.min.js></script>
+	<body>
+		<div id="app"></div>
+	</body>
+</html>
