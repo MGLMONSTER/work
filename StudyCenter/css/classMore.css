@@ -35,6 +35,7 @@
     height: auto;
     overflow: hidden;
     margin-top: 20px;
+    display: none;
 }
 .classList li{
     width: 100%;
@@ -91,7 +92,7 @@
     margin: 0 20px;
 }
 .classList li .r_side .progress .pro_bar .pro_inline{
-    width: 80%;
+    /* width: 80%; */
     height: 100%;
     display: inline-block;
     position: absolute;

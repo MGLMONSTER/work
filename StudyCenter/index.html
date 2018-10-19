@@ -127,6 +127,10 @@
                     function(data){
                         console.log(data);
                         var token = data.access_token;
+                        ajax(
+                            "GET",
+                            ""
+                        )
                         
                     }
                 )

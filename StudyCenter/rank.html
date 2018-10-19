@@ -17,7 +17,7 @@
       <div class="tabBtn">党支部</div>
     </div>
     <!-- 排行榜列表 -->
-    <ul class="rankList">
+    <ul id="rankList" class="rankList">
       <li>
         <div id="imgBox" class="imgBox">
           <img id="rankImg" src="img/u165.png" alt="">
@@ -55,40 +55,145 @@
   <script>
     window.onload = function(){
       //调整名字的字体大小
-      $(function(){
-        var Name = document.getElementById("name");
-        if(Name.innerText.length>=4){
-          Name.style.fontSize = 16 + "px";
-        }
-      })
+      // $(function(){
+      //   var Name = document.getElementById("name");
+      //   if(Name.innerText.length>=4){
+      //     Name.style.fontSize = 16 + "px";
+      //   }
+      // })
 
       $(function(){
-        var imgBox = document.getElementById("imgBox");
-        var rankNum = document.getElementById("rankNum");
-        var rankImg = document.getElementById("rankImg");
-        var count = 1;
 
 
-        //显示前三的图片
-        if(count==1||count==2||count==3){
-          rankNum.style.display = "none";
-          rankImg.style.display = "block";
-          imgBox.style.border = "none";
-        }else{
-          rankNum.style.display = "block";
-          rankImg.style.display = "none";
-          imgBox.style.border = "1px solid #000000";
+        function ajax(type,url,dataType,data,contentType,Authorization,func){
+            $.ajax({
+                type:type,
+                url:url,
+                dataType:dataType,
+                data:data,
+                contentType:contentType,
+                headers:{
+                    "Authorization":Authorization
+                },
+                success:function(data){
+                    func(data)
+                }
+            })
         }
-        //更换前三的图片
-        if(count==1){
-          rankImg.src = "img/u165.png";
-        }else if(count==2){
-          rankImg.src = "img/u166.png";
-        }else if(count==3){
-          rankImg.src = "img/u167.png";
-        }else{
-          return false;
-        }
+        
+        //登录接口
+        ajax(
+            "POST",
+            "http://192.168.2.222:8765/api/auth/oauth/token",
+            "json",
+            {
+                "username":"admin",
+                "password":"zhihuidangjian888",
+                "grant_type":"password"
+            },
+            "application/x-www-form-urlencoded",
+            "Basic dnVlOnZ1ZQ==",
+            function(data){
+                console.log(data);
+                var token = data.access_token;
+                ajax(
+                    "GET",
+                    "http://192.168.2.222:8765/api/onlinestudy/osExamScope/selectPersonRank",
+                    "json",
+                    null,
+                    "application/x-www-form-urlencoded",
+                    "Bearer " + token,
+                    function(data){
+                      var rankList = document.getElementById("rankList");
+                      console.log(data.data.rows);
+                      var rankInfo = data.data.rows;
+                      for(var i=0;i<rankInfo.length;i++){
+                        var aLi = document.createElement("li");
+                        aLi.innerHTML = 
+                          "<div class='imgBox'>"+
+                            "<img id='rankImg' src=''>"+
+                            "<p id='rankNum' class='rankNum'>"+rankInfo[i].index+"</p>"+
+                          "</div>"+
+                          "<div class='nameBox'>"+
+                            "<p id='name' class='name'>"+rankInfo[i].name+"</p>"+
+                            "<p class='score'>"+rankInfo[i].yesCount*5+"分"+"</p>"+
+                          "</div>"+
+                          "<div class='topicBox'>"+
+                            "<div class='rightTopic'>"+
+                              "<img src='img/u170.png'>"+
+                              "<span class='rightTxt'>"+rankInfo[i].yesCount+"题"+"</span>"+
+                            "</div>"+
+                            "<div class='wrongTopic'>"+
+                              "<img src='img/u173.png'>"+
+                              "<span class='wrongTxt'>"+rankInfo[i].errorCount+"题"+"</span>"+
+                            "</div>"+
+                          "</div>"+
+                          "<div class='AqInfo'>"+
+                            "<p>"+
+                              "<span>答题次数:"+rankInfo[i].correctRate+"次"+"</span>"+"&nbsp;&nbsp;&nbsp;&nbsp;"+
+                              "<span>最近答题时间:"+rankInfo[i].answerTime+"</span>"+
+                            "</p>"+
+                            "<p>"+
+                              "<span>平均用时:"+rankInfo[i].avgTime+"秒"+"</span>"+"&nbsp;&nbsp;&nbsp;&nbsp;"+
+                              "<span>更新时间:"+rankInfo[i].updateTime+"</span>"+
+                            "</p>"+
+                          "</div>";
+                        
+                        rankList.appendChild(aLi);
+
+
+
+                        setTimeout(function(){
+                          var Name = document.getElementById("name");
+                          if(Name.innerText.length>=4){
+                            Name.style.fontSize = 16 + "px";
+                          }
+
+                          var imgBox = document.getElementById("imgBox");
+                          var rankNum = document.getElementById("rankNum");
+                          var rankImg = document.getElementById("rankImg");
+
+
+                          //显示前三的图片
+                          if(rankInfo[i].index==1||rankInfo[i].index==2||rankInfo[i].index==3){
+                            rankNum.style.display = "none";
+                            rankImg.style.display = "block";
+                            imgBox.style.border = "none";
+                          }else{
+                            rankNum.style.display = "block";
+                            rankImg.style.display = "none";
+                            imgBox.style.border = "1px solid #000000";
+                          }
+                          //更换前三的图片
+                          if(rankInfo[i].index==1){
+                            rankImg.src = "img/u165.png";
+                          }else if(rankInfo[i].index==2){
+                            rankImg.src = "img/u166.png";
+                          }else if(rankInfo[i].index==3){
+                            rankImg.src = "img/u167.png";
+                          }else{
+                            return false;
+                          }
+                        },50)
+
+
+                        
+                      }
+                      
+
+
+
+
+
+                      
+                    }
+                )
+                
+            }
+        )
+
+
+        
       })
     }
   </script>

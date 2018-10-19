@@ -17,8 +17,8 @@
             <div class="self">必修课程</div>
         </div>
         <!-- 课程列表 -->
-        <ul class="classList">
-            <li>
+        <ul id="self" class="classList" style="display: block;">
+            <!-- <li>
                 <div class="imgBox">
                     <img src="" alt="">
                 </div>
@@ -40,12 +40,57 @@
                         <p class="op_btn del">删除记录</p>
                     </div>
                 </div>
-            </li>
+            </li> -->
+        </ul>
+        <ul id="must" class="classList">
+            <!-- <li>
+                <div class="imgBox">
+                    <img src="" alt="">
+                </div>
+                <div class="r_side">
+                    <p class="C_tit">边疆草原上的游牧检查官</p>
+                    <p class="progress">
+                        <span class="pro_txt">进度:</span>
+                        <span class="pro_bar">
+                            <span class="pro_inline"></span>
+                        </span>
+                        <span class="pro_percent">80%</span>
+                    </p>
+                    <p class="study">
+                        <span class="stu_time">学习次数: 61次</span>
+                        <span class="getScore">获得积分: 0分</span>
+                    </p>
+                    <div class="operation">
+                        <p class="op_btn">继续学习</p>
+                        <p class="op_btn del">删除记录</p>
+                    </div>
+                </div>
+            </li> -->
         </ul>
     </div>
 
     <script>
         window.onload = function(){
+
+            //选项卡
+            $(function(){
+                var tabBtn = document.getElementsByClassName("self");
+                var tabList = document.getElementsByClassName("classList");
+                
+                for(var i=0;i<tabBtn.length;i++){
+                    tabBtn[i].index = i;
+                    tabBtn[i].onclick = function(){
+                        for(var j=0;j<tabList.length;j++){
+                            tabBtn[j].classList.remove("active");
+                            tabList[j].style.display = "none";
+                        }
+                        this.classList.add("active");
+                        tabList[this.index].style.display = "block";
+                    }
+                }
+            })
+
+
             $(function(){
                 function ajax(type,url,dataType,data,contentType,Authorization,func){
                     $.ajax({
@@ -66,7 +111,7 @@
                 //登录接口
                 ajax(
                     "POST",
-                    "http://192.168.2.136:8765/api/auth/oauth/token",
+                    "http://192.168.2.222:8765/api/auth/oauth/token",
                     "json",
                     {
                         "username":"admin",
@@ -80,13 +125,46 @@
                         var token = data.access_token;
                         ajax(
                             "GET",
-                            "http://192.168.2.136:8765/api/onlinestudy/osCourseVideo/selectMyCourse?page=1&limit=10&selectType=1",
+                            "http://192.168.2.222:8765/api/onlinestudy/osCourseVideo/selectMyCourse?page=1&limit=10&selectType=1",
                             "json",
                             null,
                             "application/x-www-form-urlencoded",
                             "Bearer "+token,
                             function(data){
-                                console.log(data)
+                                var self = document.getElementById("self");
+                                var must = document.getElementById("must");
+                                console.log(data.data.rows)
+                                var myClass = data.data.rows;
+                                for(var i=0;i<myClass.length;i++){
+                                    var aLi = document.createElement("li");
+                                    aLi.innerHTML = 
+                                        "<div class='imgBox'>"+
+                                            "<img src='"+myClass[i].coursePic+"'>"+
+                                        "</div>"+
+                                        "<div class='r_side'>"+
+                                            "<p class='C_tit'>"+myClass[i].courseName+"</p>"+
+                                            "<p class='progress'>"+
+                                                "<span class='pro_txt'>进度:</span>"+
+                                                "<span class='pro_bar'>"+
+                                                    "<span class='pro_inline' style='width:"+myClass[i].progress+"%'></span>"+
+                                                "</span>"+
+                                                "<span class='pro_percent'>"+myClass[i].progress+"%"+"</span>"+
+                                            "</p>"+
+                                            "<p class='study'>"+
+                                                "<span class='stu_time'>学习次数:"+myClass[i].rememberTime+"次"+"</span>"+
+                                                "<span class='getScore'>获得积分:"+myClass[i].getIntegral+"分"+"</span>"+
+                                            "</p>"+
+                                            "<div class='operation'>"+
+                                                "<p class='op_btn'>继续学习</p>"+
+                                                "<p class='op_btn del'>删除记录</p>"+
+                                            "</div>"+
+                                        "</div>";
+                                    if(myClass[i].selectType == "1"){
+                                        self.appendChild(aLi);
+                                    }else{
+                                        must.appendChild(aLi);
+                                    }
+                                } 
                             }
                         )
                     }

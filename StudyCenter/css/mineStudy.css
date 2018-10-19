@@ -31,6 +31,11 @@
     line-height: 140px;
     text-align: center;
 }
+.studyInfo li .time{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 .studyInfo li .already{
     width: 100%;
     height: 60px;
