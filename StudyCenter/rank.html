@@ -18,7 +18,7 @@
     </div>
     <!-- 排行榜列表 -->
     <ul id="rankList" class="rankList">
-      <li>
+      <!-- <li>
         <div id="imgBox" class="imgBox">
           <img id="rankImg" src="img/u165.png" alt="">
           <p id="rankNum" class="rankNum">1</p>
@@ -48,7 +48,7 @@
           </p>
         </div>
 
-      </li>
+      </li> -->
     </ul>
   </div>
 
@@ -109,74 +109,107 @@
                       var rankInfo = data.data.rows;
                       for(var i=0;i<rankInfo.length;i++){
                         var aLi = document.createElement("li");
-                        aLi.innerHTML = 
-                          "<div class='imgBox'>"+
-                            "<img id='rankImg' src=''>"+
-                            "<p id='rankNum' class='rankNum'>"+rankInfo[i].index+"</p>"+
-                          "</div>"+
-                          "<div class='nameBox'>"+
-                            "<p id='name' class='name'>"+rankInfo[i].name+"</p>"+
-                            "<p class='score'>"+rankInfo[i].yesCount*5+"分"+"</p>"+
-                          "</div>"+
-                          "<div class='topicBox'>"+
-                            "<div class='rightTopic'>"+
-                              "<img src='img/u170.png'>"+
-                              "<span class='rightTxt'>"+rankInfo[i].yesCount+"题"+"</span>"+
-                            "</div>"+
-                            "<div class='wrongTopic'>"+
-                              "<img src='img/u173.png'>"+
-                              "<span class='wrongTxt'>"+rankInfo[i].errorCount+"题"+"</span>"+
-                            "</div>"+
-                          "</div>"+
-                          "<div class='AqInfo'>"+
-                            "<p>"+
-                              "<span>答题次数:"+rankInfo[i].correctRate+"次"+"</span>"+"&nbsp;&nbsp;&nbsp;&nbsp;"+
-                              "<span>最近答题时间:"+rankInfo[i].answerTime+"</span>"+
-                            "</p>"+
-                            "<p>"+
-                              "<span>平均用时:"+rankInfo[i].avgTime+"秒"+"</span>"+"&nbsp;&nbsp;&nbsp;&nbsp;"+
-                              "<span>更新时间:"+rankInfo[i].updateTime+"</span>"+
-                            "</p>"+
-                          "</div>";
+
                         
+                        // 前三图
+                        var imgBox = document.createElement("div");
+                        imgBox.classList.add("imgBox");
+                        var imgBox_img = document.createElement("img"); 
+                        var rankNum = document.createElement("p");
+                        rankNum.classList.add("rankNum");
+                        rankNum.innerHTML = rankInfo[i].index;
+                        imgBox.appendChild(imgBox_img);
+                        imgBox.appendChild(rankNum);
+                        
+                        //更换前三的图片
+                        if(rankInfo[i].index==1){
+                          imgBox_img.src = "img/u165.png";
+                          imgBox.style.border = "none";
+                          rankNum.style.display = "none";
+                        }else if(rankInfo[i].index==2){
+                          imgBox_img.src = "img/u166.png";
+                          imgBox.style.border = "none";
+                          rankNum.style.display = "none";
+                        }else if(rankInfo[i].index==3){
+                          imgBox_img.src = "img/u167.png";
+                          imgBox.style.border = "none";
+                          rankNum.style.display = "none";
+                        }else{
+                          imgBox_img.style.display = "none";
+                          rankNum.style.display = "block";
+                        };
+
+                        
+
+
+                        // 姓名
+                        var nameBox = document.createElement("div");
+                        nameBox.classList.add("nameBox");
+                        var name = document.createElement("p");
+                        name.classList.add("name");
+                        name.innerHTML = rankInfo[i].name;
+                        if(rankInfo[i].name>=4){
+                          name.style.fontSize = 16 + "px";
+                        }
+                        var score = document.createElement("p");
+                        score.classList.add("score");
+                        score.innerHTML = rankInfo[i].yesCount*5+"分";
+                        nameBox.appendChild(name);
+                        nameBox.appendChild(score);
+
+                        
+
+                        // 正确及错误题
+                        var topicBox = document.createElement("div");
+                        topicBox.classList.add("topicBox");
+                        // 正确
+                        var rightTopic = document.createElement("div");
+                        rightTopic.classList.add("rightTopic");
+                        var rImg = document.createElement("img");
+                        rImg.src = 'img/u170.png';
+                        var rTxt = document.createElement("span");
+                        rTxt.classList.add("rightTxt");
+                        rTxt.innerHTML = rankInfo[i].yesCount+"题";
+                        rightTopic.appendChild(rImg);
+                        rightTopic.appendChild(rTxt);
+                        // 错误
+                        var wrongTopic = document.createElement("div");
+                        wrongTopic.classList.add("wrongTopic");
+                        var rImg = document.createElement("img");
+                        rImg.src = 'img/u173.png';
+                        var rTxt = document.createElement("span");
+                        rTxt.classList.add("wrongTxt");
+                        rTxt.innerHTML = rankInfo[i].errorCount+"题";
+                        wrongTopic.appendChild(rImg);
+                        wrongTopic.appendChild(rTxt);
+                        topicBox.appendChild(rightTopic);
+                        topicBox.appendChild(wrongTopic);
+
+                        // 时间
+                        var AqInfo = document.createElement("div");
+                        AqInfo.classList.add("AqInfo");
+                        var p1 = document.createElement("p");
+                        p1.innerHTML = "<span>答题次数:"+rankInfo[i].correctRate+"次"+"</span>"+"&nbsp;&nbsp;&nbsp;&nbsp;"+
+                              "<span>最近答题时间:"+rankInfo[i].answerTime+"</span>";
+                        var p2 = document.createElement("p");
+                        p2.innerHTML = "<span>平均用时:"+rankInfo[i].avgTime+"秒"+"</span>"+"&nbsp;&nbsp;&nbsp;&nbsp;"+
+                              "<span>更新时间:"+rankInfo[i].updateTime+"</span>";
+                        AqInfo.appendChild(p1);
+                        AqInfo.appendChild(p2);
+
+
+
+
+
+                        
+
+
+                        
+                        aLi.appendChild(imgBox);
+                        aLi.appendChild(nameBox);
+                        aLi.appendChild(topicBox);
+                        aLi.appendChild(AqInfo);
                         rankList.appendChild(aLi);
-
-
-
-                        setTimeout(function(){
-                          var Name = document.getElementById("name");
-                          if(Name.innerText.length>=4){
-                            Name.style.fontSize = 16 + "px";
-                          }
-
-                          var imgBox = document.getElementById("imgBox");
-                          var rankNum = document.getElementById("rankNum");
-                          var rankImg = document.getElementById("rankImg");
-
-
-                          //显示前三的图片
-                          if(rankInfo[i].index==1||rankInfo[i].index==2||rankInfo[i].index==3){
-                            rankNum.style.display = "none";
-                            rankImg.style.display = "block";
-                            imgBox.style.border = "none";
-                          }else{
-                            rankNum.style.display = "block";
-                            rankImg.style.display = "none";
-                            imgBox.style.border = "1px solid #000000";
-                          }
-                          //更换前三的图片
-                          if(rankInfo[i].index==1){
-                            rankImg.src = "img/u165.png";
-                          }else if(rankInfo[i].index==2){
-                            rankImg.src = "img/u166.png";
-                          }else if(rankInfo[i].index==3){
-                            rankImg.src = "img/u167.png";
-                          }else{
-                            return false;
-                          }
-                        },50)
-
-
                         
                       }
                       
