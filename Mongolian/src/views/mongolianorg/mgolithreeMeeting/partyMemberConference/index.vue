@@ -179,7 +179,7 @@
           <el-table-column align="center" :label="$t('table.activitytime')" width="100"> <!-- 活动时间 -->
             <template slot-scope="scope">
                 <p style="margin: 0px;">{{scope.row.beginTime}}<span style="color:green"> {{$t('table.mnbegin')}}</span></p><!-- 开始 -->
-                <hr color="#909399" style="margin: 0px;height:100%;writing-mode:vertical-lr; width: 100%;"></hr>
+                <hr color="#909399" style="margin: 0px;height:100%;writing-mode:vertical-lr; width: 100%;"/>
                 <p style="margin: 0px">{{scope.row.endTime}}<span style="color:red"> {{$t('table.mnend')}}</span></p>
               <!-- 结束 -->
             </template>
