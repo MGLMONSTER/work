@@ -136,6 +136,9 @@
     box-sizing: border-box;
     border: 1px solid #000000;
     border-radius: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .C_list li .r_side .scoreBox{
     width: 100%;
